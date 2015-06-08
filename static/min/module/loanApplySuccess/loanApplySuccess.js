@@ -1,0 +1,1 @@
+require.config({map:{"*":{css:"./core/css.min"}},baseUrl:window.basePath||"./",paths:{base:"core/base"}}),define(["base","css!./module/loanApplySuccess/loanApplySuccess"],function(e){$("#toLoanApplyStatus").attr("href","/loan/loanApplyStatus"+window.location.search)});

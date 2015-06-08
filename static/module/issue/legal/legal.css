@@ -1,0 +1,19 @@
+.legal_parnter{
+	padding: 45px 0;
+	border-bottom: 1px solid #ececec;
+}
+
+.legal_parnter_h2{
+	font-size: 18px;
+	height: 18px;
+	line-height: 18px;
+	padding: 0px;
+	line-height: 22px;
+}
+
+.legal_parnter_p{
+	line-height: 32px;
+	margin: 20px 0;
+	font-size: 14px;
+}
+

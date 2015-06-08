@@ -1,0 +1,320 @@
+/********** common ***********/
+html{
+	height: 100%;
+}
+body{
+	min-height: 100%;
+	position: relative;
+	
+}
+
+.wrapper{
+	width:100%;
+	min-height:100%;
+	_height:100%;
+	position:relative
+	padding-bottom: 200px;
+}
+
+.wrapperBox{
+	width:100%;
+	padding-bottom:100px
+}
+
+.footer{
+	height: 100px;
+	width: 100%;
+	position:absolute;
+	bottom:0;
+	left:0
+}
+
+
+/*==================header=====================*/
+header{
+	background: #000;
+	height: 62px;
+	width: 100%;
+}
+.headerMain{
+	background: #000;
+	height: 62px;
+	width: 960px;
+	margin: auto;
+}
+.header .logo{
+	height: 60px;
+	width: 260px;
+	float: left;
+}
+.header .nav{
+	height: 60px;
+	width: 500px;
+	float: right;
+	text-align: right;
+	line-height: 60px;
+}
+.header .nav{
+	height: 30px;
+	width: 500px;
+	float: right;
+	text-align: right;
+	line-height: 20px;
+}
+.header .nav a{
+	color: #dedede;
+	display: block;
+	float: right;
+	padding: 20px 25px;
+	text-decoration: none;
+	background: url( /module/index/imgs/navIcon.png) 0px 18px no-repeat;
+}
+.header .nav a.first{
+	background: none;
+}
+.header .nav a.current{
+	background-color: #d00000;
+}
+
+.header .nav a.disable{
+	color: #666;
+	cursor: default;
+}
+.header .nav a.disable:hover{
+	text-decoration: none;
+}
+.header .nav a:hover{
+	text-decoration: underline;
+}
+.header .logo a{
+	display: block;
+	height: 40px;
+	margin-top: 10px;
+}
+
+.bounceOutUp{
+	-webkit-animation-name: bounceOutUp;
+	-moz-animation-name: bounceOutUp;
+	-o-animation-name: bounceOutUp;
+	animation-name: bounceOutUp;
+}
+
+.bounceInDown{
+	-webkit-animation-name: bounceInDown;
+	-moz-animation-name: bounceInDown;
+	-o-animation-name: bounceInDown;
+	animation-name: bounceInDown;
+}
+/*==================banner=====================*/
+.banner{
+	height: 325px;
+	width: 960px;
+	margin: auto;
+	background: #0e1115;
+}
+
+/*==================notice=====================*/
+.notice{
+	height: 36px;
+	width: 960px;
+	margin: auto;
+	background: #000;
+	border-bottom: 4px solid #333;
+}
+
+/*==================container=====================*/
+.container{
+	width: 960px;
+	margin: auto;
+	position: relative;
+	background: #f7f7f7;
+	min-height: 700px;
+}
+.sideBox{
+	width: 200px;
+	height: 100%;
+	float: right;
+	padding: 20px 9px 0 10px;
+}
+.sideAD{
+	width: 200px;
+	height: 190px;
+	background: #282929;
+}
+.productBox{
+	width: 740px;
+	overflow: hidden;
+	background: #fff;
+	border-right: 1px solid #c0c0c0;
+}
+.tools{
+	width: 100%;
+	height: 44px;
+	border-bottom: 1px solid #e3e3e3;
+	border-left: 1px solid #e3e3e3;
+	background: #f7f7f7;
+}
+.tools .sort{
+	float: left;
+	height: 20px;
+	padding: 5px 0;
+	margin: 7px 14px;
+	background: url( /module/index/imgs/toolsSortIcon.png) 0 15px no-repeat;
+}
+.tools .sort a{
+	display: block;
+	padding: 0 25px;
+	text-decoration: none;
+	color: #2d6ea8;
+	line-height: 20px;
+}
+.tools .type{
+	float: right;
+}
+.tools .type li{
+	float: right;
+	width: 123px;
+	height: 44px;
+	line-height: 44px;
+}
+.tools .type li.pic{
+	//background: url(../imgs/toolsPicIcon.png) 12px 11px no-repeat;
+}
+.tools .type li.list{
+	//background: url(../imgs/toolsListIcon.png) 12px 11px no-repeat;
+}
+.tools .type li.current{
+	border-left: 1px solid #e3e3e3;
+	border-right: 1px solid #e3e3e3;
+	height: 45px;
+	margin-bottom: -1px;
+	background-color: #fff;
+}
+.tools .type li a{
+	display: block;
+	color: #333333;
+	padding-left: 40px;
+	text-decoration: none;
+}
+.productEl{
+	width: 100%;
+	height: 220px;
+	padding: 29px 0;
+	position: relative;
+	border-bottom: 1px solid #c4c4c4;
+}
+.productElPic{
+	width: 428px;
+	height: 218px;
+	margin: 0 9px;
+	border: 1px solid #000;
+}
+.productElIcon{
+	width: 86px;
+	height: 80px;
+	position: absolute;
+	top: 30px;
+	background: #dfdfdf;
+	right: 200px;
+}
+.productElInfo{
+	width: 270px;
+	height: 140px;
+	position: absolute;
+	top: 115px;
+	right: 20px;
+}
+.productElInfo span{
+	display: block;
+	color: #636363;
+	line-height: 22px;
+}
+.productElInfo span.PEI_info{
+	line-height: 18px;
+}
+.productElInfo span.PEI_key a, .productElInfo span.PEI_name{
+	color: #000;
+}
+.productElInfo span.PEI_name a{
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 26px;
+	text-decoration: none;
+}
+.productElInfo span.PEI_name a:hover{
+	color: #900;
+	text-decoration: underline;
+}
+
+/*==================me=====================*/
+
+.me .intro{
+	line-height: 24px;
+	padding: 15px;
+}
+
+/*==================message=====================*/
+
+.message{
+	padding: 10px;
+	width: 940px;
+}
+.messageBox{
+	width: 720px;
+}
+.messageBox .list .item{
+	padding: 10px 0;
+	border-bottom: 1px solid #afafaf;
+}
+.messageBox label{
+	display: block;
+	width: 100%;
+	float: left;
+	padding: 5px 0px;
+}
+.messageBox label.half{
+	display: block;
+	width: 50%;
+	padding: 5px 0px;
+}
+.messageBox label tt{
+	width: 100px;
+	height: 100%;
+	line-height: 28px;
+	display: block;
+}
+.messageBox label input{
+	outline-style: none;
+	outline-width: 0pt;
+	background-color: #fafafa;
+	border: 1px solid #bdbdbd;
+	border-bottom-color: #e6e6e6;
+	border-right-color: #e6e6e6;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px #e1e1e1 inset;
+	height: 28px;
+	width: 330px;
+	padding: 0px 5px;
+	font-size: 12px;
+}
+
+.messageBox label textarea{
+	resize: none;
+	background-color: #fafafa;
+	border: 1px solid #bdbdbd;
+	border-bottom-color: #e6e6e6;
+	border-right-color: #e6e6e6;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px #e1e1e1 inset;
+	width: 690px;
+	height: 91px;
+	padding: 5px;
+	line-height: 18px;
+	
+}
+/*==================footer=====================*/
+footer{
+	height: 260px;
+	background: #000;
+}
