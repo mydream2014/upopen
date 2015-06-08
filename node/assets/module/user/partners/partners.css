@@ -1,0 +1,61 @@
+.corpName{
+	font-size: 24px;
+	color: #4d4d4d;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-bottom:1px solid #e6e6e6;
+}
+
+.partnersGrid{
+	border: 1px solid #dddddd;
+	border-bottom: none;
+	width: 100%;
+}
+
+.partnersGrid th{
+	background: #ddd;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.partnersGrid td{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-bottom: 1px solid #dddddd;
+}
+
+.addPartner{
+	margin: 10px;
+	display: none;
+}
+
+.partner_model{
+	width: 80px;
+	height: 26px;
+	margin-right: 10px;
+}
+
+.partner_company{
+	width: 300px;
+}
+
+.btn_partner{
+	margin-left: 10px;
+}
+
+.partner_company_prompt{
+	color: #f33d47;
+	padding: 6px 90px;
+}
+
+.addNewPartner{
+	padding-left: 25px;
+	display: block;
+	height: 28px;
+	line-height: 28px;
+	margin: 10px;
+	background: url(./imgs/partner.png) left center no-repeat;
+}

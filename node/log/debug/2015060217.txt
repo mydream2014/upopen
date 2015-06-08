@@ -1,0 +1,7 @@
+[2015-06-02 17:05:47.429] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-02 17:05:47.524] [INFO] logInfo - server start3000
+[2015-06-02 17:05:47.528] [INFO] logInfo - redis connect
+[2015-06-02 17:05:47.531] [WARN] logInfo - redis connect again
+[2015-06-02 17:05:47.531] [INFO] logInfo - redis set VerifyLoginTime::{}
+[2015-06-02 17:05:53.702] [INFO] logInfo - /:::::::::::::GET
+[2015-06-02 17:06:22.365] [INFO] logInfo - /:::::::::::::GET

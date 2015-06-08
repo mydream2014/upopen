@@ -1,0 +1,19 @@
+.aboutus_part{
+	padding: 45px 0;
+	border-bottom: 1px solid #ececec;
+}
+
+.aboutus_part_h2{
+	font-size: 18px;
+	height: 18px;
+	line-height: 18px;
+	padding: 0px;
+	line-height: 22px;
+}
+
+.aboutus_part_p{
+	line-height: 32px;
+	margin: 20px 0;
+	font-size: 14px;
+}
+

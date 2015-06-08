@@ -1,0 +1,24 @@
+[2015-06-02 15:45:15.370] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-02 15:45:15.460] [INFO] logInfo - server start3000
+[2015-06-02 15:45:15.462] [INFO] logInfo - redis connect
+[2015-06-02 15:45:15.464] [WARN] logInfo - redis connect again
+[2015-06-02 15:45:15.465] [INFO] logInfo - redis set VerifyLoginTime::{}
+[2015-06-02 15:45:40.013] [INFO] logInfo - /:::::::::::::GET
+[2015-06-02 15:45:40.014] [WARN] logInfo - getcookie error
+[2015-06-02 15:47:47.231] [INFO] logInfo - /user/getVerifyCode:::::::::::::GET
+[2015-06-02 15:47:47.232] [WARN] logInfo - getcookie error
+[2015-06-02 15:47:47.235] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/verify/getImgCode?',
+  method: 'get',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'keep-alive',
+     accept: 'image/webp,*/*;q=0.8',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     referer: 'http://127.0.0.1:3000/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' } }
+[2015-06-02 15:47:47.239] [INFO] logInfo - /module/index/imgs/compare.png:::::::::::::GET
+[2015-06-02 15:47:47.240] [WARN] logInfo - getcookie error
+[2015-06-02 15:49:54.713] [INFO] logInfo - /favicon.ico:::::::::::::GET

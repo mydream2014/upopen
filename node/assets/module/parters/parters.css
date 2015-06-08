@@ -1,0 +1,319 @@
+
+/********** 用户中心 *********/
+.user-nav{
+	width: 230px;
+	background-color: #d9d9d9;
+}
+.user-nav li{
+	border-bottom:1px solid #bbc5cd;
+	border-top:1px solid #ebebeb;
+}
+.user-nav li:first-child{
+	border-top:none;
+}
+.user-nav .user-n-c{
+	height: 45px;
+	background-color: #d9d9d9;
+	padding:20px 0;
+}
+.user-nav .user-n-c a{
+	display: block;
+	color: #666;
+	font-size: 14px;
+	line-height: 28px;
+	background:url(./imgs/ghrtIcon.png) no-repeat;
+	width: 120px;
+	margin:10px auto 0;
+	padding-left: 35px;
+}
+.user-nav .user-n-c a.qyxx{
+	background-position: 0 1px;
+}
+.user-nav .user-n-c a.rzzj{
+	background-position: 0 -30px;
+}
+.user-nav .user-n-c a.hzwm{	
+	background-position: 0 -61px;
+}
+.user-nav .user-n-c a.lxwm{
+	background-position: 0 -91px;	
+}
+.user-nav .user-n-c.user-n-current a.qyxx{
+	background-position: 0 -122px;
+}
+.user-nav .user-n-c.user-n-current a.rzzj{
+	background-position: 0 -153px;
+}
+.user-nav .user-n-c.user-n-current a.hzwm{	
+	background-position: 0 -184px;
+}
+.user-nav .user-n-c.user-n-current a.lxwm{
+	background-position: 0 -214px;
+}
+.user-n-current{
+	background-color: #fff !important;
+	border-left: 4px solid #86a5f4;
+}
+.user-n-current a{
+	color: #a10005 !important;
+	font-size:16px !important;
+}
+.user-nav .user-n-i{
+	font-weight: bold;
+	padding: 12px 6px 16px 30px;	
+	color: #000;
+}
+.user-nav .user-n-i:first-child{
+	border-top: none;
+}
+.user-nav .user-n-e{
+	background-color: #b9995a;
+	height: 160px;
+	padding-top: 60px;
+}
+.user-nav .user-n-e a{
+	display: block;
+	color: #fff;
+	background-color: #5e5d5e;
+	width: 185px;
+	height: 30px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin:0 auto 0;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+}
+.user-cont{
+	width: 730px;
+	padding:0 20px;
+
+}
+.user-c-rz .user-c-na{
+	font-size: 20px;
+	color: #222;
+	line-height: 50px;
+	padding: 20px 0px;
+}
+
+.user-c-rz .user-c-su span{
+	font-size: 32px;
+	color: #a10007;
+}
+.user-qyxx .user-qyxx-t{
+	border-left: 5px solid #86a5f4;
+	line-height: 35px;
+	font-size: 16px;
+	border-bottom: 1px solid #b0b0b0;
+	padding-left: 12px;
+	color: #484848;
+	font-weight: bold;
+}
+.user-qyxx .user-qyxx-i{
+	margin-bottom: 50px;
+}
+.user-qyxx .user-qyxx-i p{
+	color: #484848;
+	padding-left:8px;
+	margin: 10px 0;
+	font-size: 14px;
+}
+.user-c-tabel{
+	width: 730px;
+	border-left: 1px solid #eeeeef;
+}
+.user-c-tabel tr{
+    background-color: #eaebeb;
+    border-bottom: 1px solid #fff;
+}
+.user-c-tabel .user-ct-top{
+	font-weight: bold;
+}
+
+.user-c-tabel .user-ct-top th{
+	font-weight: bold;
+	text-align: center;
+	font-size: 16px;
+	line-height: 40px;
+	border-right: 1px solid #fff;
+	background-color: #eeeeef;
+	height: 40px;
+}
+
+.user-c-tabel td{
+	text-align: center;
+	font-size: 14px;
+	line-height: 40px;
+	background-color: #fff;
+	border-right: 1px solid #f6f6f7;
+	border-bottom: 1px solid #f6f6f7;
+	color: #595757;
+}
+.user-c-tabel .user-ct-fl td{
+    width: 20px;
+    vertical-align: top;
+    background-color: #737373;
+    color: #fff;
+    padding:5px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+.user-c-tabel .user-ct-t,.user-c-tabel .user-cj-add{
+	text-align: center;
+}
+
+.user-c-tabel .uploadbtn{
+	padding: 0px 20px;
+	height: 24px;
+	line-height: 24px;
+	background: #37aea3;
+	color: #fff;
+	border: none;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.user-c-tabel .uploadFile{
+	  width: 64px;
+	  height: 60px;
+	  top: -30px;
+	  position: absolute;
+	  left: 40px;
+	  cursor: pointer;
+	  opacity: 0;
+	  FILTER: alpha(opacity=0)
+}
+
+
+
+.partAddLink{
+	background: url( ./imgs/parterAdd.png ) center left no-repeat;
+	width: 200px;
+    padding: 10px 0 10px 25px;
+}
+.user-c-tabel .user-ct-u,.user-c-tabel .user-ct-d{
+	background-color: #f2f3f3;
+}
+.user-c-tabel .user-ct-top .user-ct-u,.user-c-tabel .user-ct-top .user-ct-d{
+	background-color: #A7BDF5;;
+}
+.user-c-tabel .user-cj-add {
+	color: #838383;
+}
+.user-c-tabel .user-cj-add span{
+	display: inline-block;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	width: 18px;
+	height: 18px;
+	background-color: #838383;
+	vertical-align: text-bottom;
+	line-height: 16px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	margin-right: 5px;
+}
+/****************************************/
+.dialog_mask{
+	top: 0px;
+	height: 1000px;
+	width: 100%;
+	display: none;
+	position: fixed;
+	background: #fff;
+	opacity: .5;
+	z-index: 10;
+}
+.dialog{
+	position: fixed;
+	z-index: 99;
+	left: 50%;
+	top: 40%;
+	width: 300px;
+	display: none;
+	height: 200px;
+	margin-left: -150px;
+	margin-top: -100px;
+	background: #fff;
+	border-radius: 8px;
+	border: 1px solid #e7e7e7;
+	overflow: hidden;
+	box-shadow: 0 4px 23px 5px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0,0,0,0.15);
+}
+.dialog_tit{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 8px;
+	color: #333;
+	background: #e7e7e7;
+}
+.dialog_closebtn{
+	width: 16px;
+	height: 16px;
+	display: block;
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	cursor: pointer;
+	background: url(./imgs/dialog_close.png) no-repeat;
+}
+.dialog label{
+	display: block;
+	margin: 20px 0px;
+}
+.dialog_form{
+	padding: 8px;
+	position: relative;
+}
+.dialog_form_tit{
+	width: 50px;
+	display: inline-block;
+}
+.dialog_form_text{
+	  width: 220px;
+	  display: inline-block;
+	  height: 24px;
+	  line-height: 24px;
+}
+.dialog_form_btn{
+	width: 60px;
+	padding: 5px 0;
+	cursor: pointer;
+	float: right;
+	margin-left: 10px;
+}
+
+.parterTypeList{
+	width: 222px;
+	position: absolute;
+	display: none;
+	top: 55px;
+	left: 58px;
+	background: #fff;
+	border: 1px solid #e7e7e7;
+}
+
+.parterTypeList li{
+	float: left;
+	line-height: 40px;
+	margin: 0 5px;
+}
+
+.addParterItem{
+	margin: 100px 220px;
+	background: #36b8ae;
+	width: 215px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	float: left;
+	color: #fff !important;
+	font-size: 26px;
+	letter-spacing: 1px;
+} 

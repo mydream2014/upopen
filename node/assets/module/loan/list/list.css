@@ -1,0 +1,110 @@
+.toLoanApply{
+	display: block;
+	width: 200px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;
+	color: #fff;
+	background: #33c1ba;
+	text-align: center;
+}
+
+.btn_yellow{
+	display: inline-block;
+	width: 200px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;
+	color: #fff;
+	background: #fbb03b;
+	text-align: center;
+}
+
+.loanListToApply{
+	float: right;
+	width: 240px;
+	color: #b3b3b3;
+	font-size: 14px;
+	line-height: 26px;
+	padding-top: 10px;
+}
+
+.loanListToApply .toLoanApply{
+	float: right;
+	width: 80px;
+}
+
+/************************************************
+userManager - loanList_nothing
+************************************************/
+
+.loanList_nothing{
+	height: 75px;
+	padding: 185px 0 0 260px;
+	background: url( ./imgs/loadListNothing.png ) center no-repeat;
+}
+
+/************************************************
+userManager - loanList_items
+************************************************/
+
+.loanList_grid{
+	width: 100%;
+	border: 1px solid #dddddd;
+	border-bottom: none;
+	border-right: none;
+}
+
+.loanList_grid th{
+	background: #ddd;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.loanList_grid thead{
+	border-right: 1px solid #dddddd;
+}
+
+.loanList_grid td{
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+}
+
+.loanGrid_num{
+	font-size: 14px;
+}
+
+.loanList_grid td.loanList_first{
+	text-align: left;
+	padding-left: 10px;
+	line-height: 20px;
+}
+
+.loanList_code{
+	display: block;
+	color: #b3b3b3;
+}
+
+.loanGrid_status{
+	color: #fbb03b;
+}
+
+.loanGrid_status tt{
+	font-family: initial;
+	font-weight: bold;
+	color: #fbb03b;
+}
+
+.loanGrid_status4, .loanGrid_status4 tt{
+	color: #f33d47;
+}
+
+.loanGrid_status5, .loanGrid_status5 tt{
+	color: #33c2b9;
+}
+

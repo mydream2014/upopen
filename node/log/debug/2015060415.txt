@@ -1,0 +1,270 @@
+[2015-06-04 15:03:02.414] [INFO] logInfo - /user/logout:::::::::::::GET
+[2015-06-04 15:03:02.415] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/user/logout?',
+  method: 'get',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'close',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     referer: 'http://web.qjdchina.com/user/partners',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'qqmail_alias=jiangguangcai@qjdchina.com; JSESSIONID=9AC606C6CFCDDA73BCA27A5851F9F455; sso_cookie=1FC7838493ABC4BAE654CC205D43FA2751B6CF7089A0A919DAE69D705126F86D95E0E9FF25A8187000B2423E2DE35333; username=13675896031; corpname=!%40%23%24%25%5E%26*()_%2B%3C%3E\'%22' } }
+[2015-06-04 15:03:02.440] [INFO] logInfo - /:::::::::::::GET
+[2015-06-04 15:03:02.456] [INFO] logInfo - /user/getVerifyCode:::::::::::::GET
+[2015-06-04 15:03:02.457] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/verify/getImgCode?',
+  method: 'get',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'close',
+     accept: 'image/webp,*/*;q=0.8',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     referer: 'http://web.qjdchina.com/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'qqmail_alias=jiangguangcai@qjdchina.com; username=13675896031; corpname=!%40%23%24%25%5E%26*()_%2B%3C%3E\'%22; sso_cookie=' } }
+[2015-06-04 15:03:19.522] [INFO] logInfo - /user/login:::::::::::::POST
+[2015-06-04 15:03:19.522] [INFO] logInfo - [index] this path do not need to try check need /user/login:::::::POST
+[2015-06-04 15:03:19.522] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:03:19.523] [INFO] logInfo - redis get VerifyLoginTime::[object Object]
+[2015-06-04 15:03:19.524] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:03:19.524] [INFO] logInfo - redis set VerifyLoginTime::{}
+[2015-06-04 15:03:19.525] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/user/login',
+  method: 'POST',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'close',
+     'content-length': '47',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     origin: 'http://web.qjdchina.com',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+     referer: 'http://web.qjdchina.com/',
+     'accept-encoding': 'gzip, deflate',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'qqmail_alias=jiangguangcai@qjdchina.com; username=13675896031; corpname=!%40%23%24%25%5E%26*()_%2B%3C%3E\'%22; sso_cookie=; JSESSIONID=CC75C0AB5A774575AB061431A2DC053C' } }
+[2015-06-04 15:03:19.575] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:03:19.576] [INFO] logInfo - redis get VerifyLoginTime::[object Object]
+[2015-06-04 15:03:19.576] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:03:19.576] [INFO] logInfo - redis set VerifyLoginTime::{"13675896031":1}
+[2015-06-04 15:03:21.023] [INFO] logInfo - /user/login:::::::::::::POST
+[2015-06-04 15:03:21.023] [INFO] logInfo - [index] this path do not need to try check need /user/login:::::::POST
+[2015-06-04 15:03:21.023] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:03:21.024] [INFO] logInfo - redis get VerifyLoginTime::[object Object]
+[2015-06-04 15:03:21.024] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:03:21.024] [INFO] logInfo - redis set VerifyLoginTime::{"13675896031":1}
+[2015-06-04 15:03:21.025] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/user/login',
+  method: 'POST',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'close',
+     'content-length': '47',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     origin: 'http://web.qjdchina.com',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+     referer: 'http://web.qjdchina.com/',
+     'accept-encoding': 'gzip, deflate',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'qqmail_alias=jiangguangcai@qjdchina.com; username=13675896031; corpname=!%40%23%24%25%5E%26*()_%2B%3C%3E\'%22; sso_cookie=; JSESSIONID=CC75C0AB5A774575AB061431A2DC053C' } }
+[2015-06-04 15:03:21.075] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:03:21.076] [INFO] logInfo - redis get VerifyLoginTime::[object Object]
+[2015-06-04 15:03:21.076] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:03:21.076] [INFO] logInfo - redis set VerifyLoginTime::{"13675896031":2}
+[2015-06-04 15:03:22.440] [INFO] logInfo - /user/login:::::::::::::POST
+[2015-06-04 15:03:22.440] [INFO] logInfo - [index] this path do not need to try check need /user/login:::::::POST
+[2015-06-04 15:03:22.440] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:03:22.441] [INFO] logInfo - redis get VerifyLoginTime::[object Object]
+[2015-06-04 15:03:22.441] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:03:22.441] [INFO] logInfo - redis set VerifyLoginTime::{"13675896031":2}
+[2015-06-04 15:03:22.441] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/user/login',
+  method: 'POST',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'close',
+     'content-length': '47',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     origin: 'http://web.qjdchina.com',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+     referer: 'http://web.qjdchina.com/',
+     'accept-encoding': 'gzip, deflate',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'qqmail_alias=jiangguangcai@qjdchina.com; username=13675896031; corpname=!%40%23%24%25%5E%26*()_%2B%3C%3E\'%22; sso_cookie=; JSESSIONID=CC75C0AB5A774575AB061431A2DC053C' } }
+[2015-06-04 15:03:22.474] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:03:22.475] [INFO] logInfo - redis get VerifyLoginTime::[object Object]
+[2015-06-04 15:03:22.475] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:03:22.475] [INFO] logInfo - redis set VerifyLoginTime::{"13675896031":3}
+[2015-06-04 15:03:22.979] [INFO] logInfo - /user/getVerifyCode:::::::::::::GET
+[2015-06-04 15:03:22.980] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/verify/getImgCode?0.4493955129291862=&__proto__=',
+  method: 'get',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'close',
+     accept: 'image/webp,*/*;q=0.8',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     referer: 'http://web.qjdchina.com/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'qqmail_alias=jiangguangcai@qjdchina.com; username=13675896031; corpname=!%40%23%24%25%5E%26*()_%2B%3C%3E\'%22; sso_cookie=; JSESSIONID=CC75C0AB5A774575AB061431A2DC053C' } }
+[2015-06-04 15:03:28.310] [INFO] logInfo - /user/login:::::::::::::POST
+[2015-06-04 15:03:28.310] [INFO] logInfo - [index] this path do not need to try check need /user/login:::::::POST
+[2015-06-04 15:03:28.310] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:03:28.311] [INFO] logInfo - redis get VerifyLoginTime::[object Object]
+[2015-06-04 15:03:28.311] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:03:28.311] [INFO] logInfo - redis set VerifyLoginTime::{"13675896031":3}
+[2015-06-04 15:03:28.312] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/verify/checkImgCode',
+  method: 'POST',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'close',
+     'content-length': '50',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     origin: 'http://web.qjdchina.com',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+     referer: 'http://web.qjdchina.com/',
+     'accept-encoding': 'gzip, deflate',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'qqmail_alias=jiangguangcai@qjdchina.com; username=13675896031; corpname=!%40%23%24%25%5E%26*()_%2B%3C%3E\'%22; sso_cookie=; JSESSIONID=CC75C0AB5A774575AB061431A2DC053C' } }
+[2015-06-04 15:03:28.844] [INFO] logInfo - /user/getVerifyCode:::::::::::::GET
+[2015-06-04 15:03:28.845] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/verify/getImgCode?0.47428275528363883=&__proto__=',
+  method: 'get',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'close',
+     accept: 'image/webp,*/*;q=0.8',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     referer: 'http://web.qjdchina.com/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'qqmail_alias=jiangguangcai@qjdchina.com; username=13675896031; corpname=!%40%23%24%25%5E%26*()_%2B%3C%3E\'%22; sso_cookie=; JSESSIONID=CC75C0AB5A774575AB061431A2DC053C' } }
+[2015-06-04 15:06:15.168] [INFO] logInfo - /:::::::::::::GET
+[2015-06-04 15:06:15.197] [INFO] logInfo - /user/getVerifyCode:::::::::::::GET
+[2015-06-04 15:06:15.199] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/verify/getImgCode?',
+  method: 'get',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'close',
+     'cache-control': 'max-age=0',
+     accept: 'image/webp,*/*;q=0.8',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     referer: 'http://web.qjdchina.com/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'qqmail_alias=jiangguangcai@qjdchina.com; username=13675896031; corpname=!%40%23%24%25%5E%26*()_%2B%3C%3E\'%22; sso_cookie=; JSESSIONID=CC75C0AB5A774575AB061431A2DC053C' } }
+[2015-06-04 15:06:16.368] [INFO] logInfo - /:::::::::::::GET
+[2015-06-04 15:06:16.394] [INFO] logInfo - /user/getVerifyCode:::::::::::::GET
+[2015-06-04 15:06:16.394] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/verify/getImgCode?',
+  method: 'get',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'close',
+     'cache-control': 'max-age=0',
+     accept: 'image/webp,*/*;q=0.8',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     referer: 'http://web.qjdchina.com/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'qqmail_alias=jiangguangcai@qjdchina.com; username=13675896031; corpname=!%40%23%24%25%5E%26*()_%2B%3C%3E\'%22; sso_cookie=; JSESSIONID=CC75C0AB5A774575AB061431A2DC053C' } }
+[2015-06-04 15:06:21.841] [INFO] logInfo - /user/login:::::::::::::POST
+[2015-06-04 15:06:21.841] [INFO] logInfo - [index] this path do not need to try check need /user/login:::::::POST
+[2015-06-04 15:06:21.841] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:06:21.842] [INFO] logInfo - redis get VerifyLoginTime::[object Object]
+[2015-06-04 15:06:21.842] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:06:21.842] [INFO] logInfo - redis set VerifyLoginTime::{"13675896031":3}
+[2015-06-04 15:06:22.349] [INFO] logInfo - /user/getVerifyCode:::::::::::::GET
+[2015-06-04 15:06:22.349] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/verify/getImgCode?0.014944950584322214=&__proto__=',
+  method: 'get',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'close',
+     accept: 'image/webp,*/*;q=0.8',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     referer: 'http://web.qjdchina.com/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'qqmail_alias=jiangguangcai@qjdchina.com; username=13675896031; corpname=!%40%23%24%25%5E%26*()_%2B%3C%3E\'%22; sso_cookie=; JSESSIONID=CC75C0AB5A774575AB061431A2DC053C' } }
+[2015-06-04 15:06:24.353] [INFO] logInfo - /:::::::::::::GET
+[2015-06-04 15:06:24.384] [INFO] logInfo - /user/getVerifyCode:::::::::::::GET
+[2015-06-04 15:06:24.384] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/verify/getImgCode?',
+  method: 'get',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'close',
+     'cache-control': 'max-age=0',
+     accept: 'image/webp,*/*;q=0.8',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     referer: 'http://web.qjdchina.com/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'qqmail_alias=jiangguangcai@qjdchina.com; username=13675896031; corpname=!%40%23%24%25%5E%26*()_%2B%3C%3E\'%22; sso_cookie=; JSESSIONID=CC75C0AB5A774575AB061431A2DC053C' } }
+[2015-06-04 15:07:56.024] [INFO] logInfo - /:::::::::::::GET
+[2015-06-04 15:07:56.057] [INFO] logInfo - /user/getVerifyCode:::::::::::::GET
+[2015-06-04 15:07:56.057] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/verify/getImgCode?',
+  method: 'get',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'close',
+     'cache-control': 'max-age=0',
+     accept: 'image/webp,*/*;q=0.8',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     referer: 'http://web.qjdchina.com/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'qqmail_alias=jiangguangcai@qjdchina.com; username=13675896031; corpname=!%40%23%24%25%5E%26*()_%2B%3C%3E\'%22; sso_cookie=; JSESSIONID=CC75C0AB5A774575AB061431A2DC053C' } }
+[2015-06-04 15:07:57.788] [INFO] logInfo - /user/login:::::::::::::POST
+[2015-06-04 15:07:57.788] [INFO] logInfo - [index] this path do not need to try check need /user/login:::::::POST
+[2015-06-04 15:07:57.788] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:07:57.789] [INFO] logInfo - redis get VerifyLoginTime::[object Object]
+[2015-06-04 15:07:57.789] [INFO] logInfo - redis connnected status is :::::::true
+[2015-06-04 15:07:57.789] [INFO] logInfo - redis set VerifyLoginTime::{"13675896031":3}
+[2015-06-04 15:07:58.294] [INFO] logInfo - /user/getVerifyCode:::::::::::::GET
+[2015-06-04 15:07:58.295] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/verify/getImgCode?0.2973076922353357=&__proto__=',
+  method: 'get',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'close',
+     accept: 'image/webp,*/*;q=0.8',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     referer: 'http://web.qjdchina.com/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'qqmail_alias=jiangguangcai@qjdchina.com; username=13675896031; corpname=!%40%23%24%25%5E%26*()_%2B%3C%3E\'%22; sso_cookie=; JSESSIONID=CC75C0AB5A774575AB061431A2DC053C' } }
+[2015-06-04 15:33:09.572] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-04 15:33:09.666] [INFO] logInfo - server start3000
+[2015-06-04 15:33:09.704] [INFO] logInfo - redis connect
+[2015-06-04 15:33:09.706] [WARN] logInfo - redis connect again
+[2015-06-04 15:33:09.706] [INFO] logInfo - redis set VerifyLoginTime::{}

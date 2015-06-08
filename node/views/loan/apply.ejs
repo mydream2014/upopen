@@ -1,0 +1,113 @@
+<% include ../common/header.ejs %>
+<div class="main userManager loanApply clearfix">
+    <div class="content" style="width: 780px;">
+		<div class="loadApplyAD"></div>
+		<form id="loadApplyForm" class="loadApplyForm">
+			<div class="loadApplyFormHead">填写项目资料，开始申请贷款</div>
+			
+			<dl>
+				<dt>
+					<label>
+						<span class="loadApplyFormLabel">项目名称：</span>
+						<input type="text" id="projectName" maxLength="15" class="textin" />	
+					</label>
+				</dt>
+				<dd><span class="inputTextPrompt projectNamePrompt"></span></dd>
+			</dl>
+
+			<dl>
+				<dt>
+					<label>
+						<span class="loadApplyFormLabel">所在地：</span>
+						<select id="provinceCode" style="width:111px;"></select>
+						<select id="cityCode" style="width: 110px;margin-left:-3px;">
+							<option value="a">aaa</option>
+						</select>
+						<select id="strictCode" class="hide"></select>
+					</label>
+				</dt>
+				<dd><span class="inputTextPrompt cityPrompt"></span></dd>
+			</dl>
+
+			<dl>
+				<dt>
+					<label>
+						<span class="loadApplyFormLabel">开发商：</span>
+						<input type="text" id="propertyDeveloper" maxLength="15" class="textin" />		
+					</label>
+				</dt>
+				<dd><span class="inputTextPrompt propertyDeveloperPrompt"></span></dd>
+			</dl>
+
+			<dl>
+				<dt>
+					<label>
+						<span class="loadApplyFormLabel">合同金额：</span>
+						<input type="text" id="contractAmount" maxLength="4" class="textin"/><tt class="loanUnit">万</tt>	
+					</label>
+				</dt>
+				<dd><span class="inputTextPrompt contractAmountPrompt"></span></dd>
+			</dl>
+
+			<dl>
+				<dt>
+					<label>
+						<span class="loadApplyFormLabel">贷款金额：</span>
+						<input type="text" id="loanAmount" maxLength="4" class="textin"/><tt class="loanUnit">万</tt>		
+					</label>
+				</dt>
+				<dd><span class="inputTextPrompt loanAmountPrompt"></span></dd>
+			</dl>
+
+			<dl>
+				<dt>
+					<label>
+						<span class="loadApplyFormLabel">贷款期限：</span>
+						<select value="4" id="loanLimit">
+							<option value="2">2个月</option>
+							<option value="3">3个月</option>
+							<option value="4">4个月</option>
+							<option value="5">5个月</option>
+							<option value="6">6个月</option>
+						</select>
+					</label>
+				</dt>
+				<dd></dd>
+			</dl>
+
+			<dl>
+				<dt>
+					<label>
+						<span class="loadApplyFormLabel">合作厂家：</span>
+						<select id="partner"></select>
+					</label>
+				</dt>
+				<dd><a href="/user/partners" class="addParter" target="_blank">新增合作厂家</a></dd>
+			</dl>
+
+			<button type="submit" class="btnGreen loadApplyFormSubmit">提交贷款申请</button>
+
+		</form>
+    </div>
+</div>
+<div class="dialogParter parter" style="display: none;">
+	<div class="dialogParter_tit">新增合作厂家<tt class="dialogParter_closebtn"></tt></div>
+	<form id="formParter" class="dialogParter_form">
+		<div>
+			<div class="errorTip"></div>
+			<label style="margin-top:10px;"><span class="dialogParter_form_tit">品&nbsp;&nbsp;&nbsp;类</span><input readonly="true" class="dialogParter_form_text" type="model" id="parterType"></label>
+			<label><span class="dialogParter_form_tit">供应商</span><input id="company" class="dialogParter_form_text" type="company"></label>
+			<ul class="parterTypeList clearfix" style="display: none;">
+				<li><a href="javascript:void(0)">电梯系统</a></li>
+				<li><a href="javascript:void(0)">空调设备</a></li>
+				<li><a href="javascript:void(0)">厨房电器</a></li>
+			</ul>
+		</div>
+		<div>
+			<button class="dialogParter_form_btn" type="button" id="dialogParter_cancel">取&nbsp;消</button>
+			<button class="dialogParter_form_btn" type="submit">完&nbsp;成</button>
+		</div>
+	</form>
+</div>
+<div class="dialogParter_mask"></div>
+<% include ../common/footer.ejs %>

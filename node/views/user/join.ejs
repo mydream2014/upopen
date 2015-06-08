@@ -1,0 +1,95 @@
+<% include ../common/header.ejs %>
+<div class="container join clearfix ">
+    <div class="join_main clearfix">
+		<div class="join_ad"></div>
+		<form id="joinForm" class="join_form">
+			<div class="join_head"><tt style="color:#33c2b9">1分钟</tt>成长仟金顶会员，马上申请项目贷款</div>
+			
+			<label class="join_label">
+				<span class="join_text">公司名称：</span>
+				<input type="text" id="corpName" maxLength="25" class="input_text" />
+				<span class="join_prompt join_prompt_corpName"></span>
+			</label>
+
+			<label class="join_label">
+				<span class="join_text">注册时间：</span>
+				<select id="registerYear" class="join_select">
+				</select>
+				<span class="join_prompt join_prompt_registerYear"></span>
+			</label>
+
+			<label class="join_label">
+				<span class="join_text">人员规模：</span>
+				<select id="size" class="join_select">
+					<option value="0">50以下</option>
+					<option value="1">50-500</option>
+					<option value="2">500-1000</option>
+					<option value="3">1000以上</option>
+				</select>
+				<span class="join_prompt"></span>
+			</label>
+
+			<label class="join_label">
+				<span class="join_text">办公地址：</span>
+				<select id="province" class="join_select"></select>
+				<select id="city" class="join_select">
+					<option value="a">aaa</option>
+				</select>
+				<select id="strict" class="join_select"></select>
+				<span class="join_prompt"></span>
+				<span class="join_prompt join_prompt_city"></span>
+			</label>
+
+			<label class="join_label">
+				<span class="join_text"></span>
+				<input type="text" id="address" maxLength="30" class="input_text"/>
+				<span class="join_prompt join_prompt_address"></span>
+			</label>
+
+			<label class="join_label">
+				<span class="join_text">工商注册号：</span>
+				<input type="text" id="businessId" maxLength="13" class="input_text" />
+				<span class="join_prompt join_prompt_businessId"></span>
+			</label>
+
+			<label class="join_label" id="joinPartnerPrompt">
+				<span class="join_text"></span>
+				<span class="join_prompt join_prompt_partner"></span>
+			</label>
+
+			<label class="join_label">
+				<span class="join_text">法定代表人：</span>
+				<input type="text" id="legalPerson" maxLength="11" class="input_text" />
+				<span class="join_prompt join_prompt_legalPerson "></span>
+			</label>
+
+			<label class="join_label">
+				<span class="join_text">身份证号：</span>
+				<input type="text" id="idCard" maxLength="18" class="input_text" />
+				<span class="join_prompt join_prompt_idCard "></span>
+			</label>
+
+			<label class="join_label">
+				<span class="join_text">联系人：</span>
+				<input type="text" id="contact" maxLength="11" class="input_text" />
+				<span class="join_prompt join_prompt_contact"></span>
+			</label>
+
+			<label class="join_label">
+				<span class="join_text">手机号码：</span>
+				<input type="text" id="mobile" maxLength="11" class="input_text" />
+				<span class="join_prompt join_prompt_mobile"></span>
+			</label>
+
+			<label class="join_label">
+				<span class="join_text">公司邮箱：</span>
+				<input type="text" id="email" maxLength="50" class="input_text"  />
+				<span class="join_prompt join_prompt_email"></span>
+			</label>
+				
+			<button type="submit" class="btnGreen joinSubmit">提交申请</button>
+
+		</form>
+    </div>
+</div>
+<% include ../common/footer.ejs %>

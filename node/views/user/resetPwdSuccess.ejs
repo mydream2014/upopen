@@ -1,0 +1,24 @@
+<% include ../common/header.ejs %>
+<div class="container findPwd clearfix ">
+    <div class="findPwd_content">
+		<div class="findPwd_progress clearfix">
+			<ul class="findPwd_progress_text clearfix">
+				<li class="findPwd_progress_text_current">身份验证</li>
+				<li class="findPwd_progress_text_current">重置密码</li>
+				<li class="findPwd_progress_text_current">重置成功</li>
+			</ul>
+			<dl class="findPwd_progress_line clearfix">
+				<dt class="findPwd_progress_line_current">1</dt>
+				<dd class="findPwd_progress_line_current"></dd>
+				<dt class="findPwd_progress_line_current">2</dt>
+				<dd class="findPwd_progress_line_current"></dd>
+				<dt class="findPwd_progress_line_current">3</dt>
+			</dl>
+		</div>
+		<p class="findPwd_success">
+			<span class="findPwd_success_text clearfix">您的新密码已设置成功！</span>
+			自动跳转到<a href="/" class="findPwd_success_link">首页</a>，<tt id="countdown">3</tt>秒...
+		</p>
+    </div>
+</div>
+<% include ../common/footer.ejs %>

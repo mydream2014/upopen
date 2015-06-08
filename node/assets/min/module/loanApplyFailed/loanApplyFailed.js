@@ -1,0 +1,1 @@
+require.config({map:{"*":{css:"./core/css.min"}},baseUrl:basePath,paths:{base:"core/base",dialog:"widget/dialog/dialog",all:"public/all",area:"widget/complexArea/complexArea",doc:"public/zhdoc"}}),define(["css!./module/loanApplyFailed/loanApplyFailed"],function(){});

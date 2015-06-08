@@ -1,0 +1,81 @@
+.main{
+	width: 970px;
+}
+
+.userManager{
+	margin: 32px auto;
+}
+
+.userName{
+	font-size: 24px;
+	color: #4d4d4d;
+	width: 400px;
+	float: left;
+}
+
+.loanListTitle{
+	margin: 20px 0 30px 0;
+}
+/************************************************
+userManager - userMenu
+************************************************/
+.userMenu{
+	width: 188px;
+}
+
+.userMenu li{
+	height: 100px;
+	width: 188px;
+}
+
+.userMenu li a{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 180px;
+	padding-top: 60px;
+	background: url( ./imgs/userMenuBg.png) center no-repeat #fff;
+	text-align: center;
+	font-size: 14px;
+	color: #4d4d4d;
+}
+
+.userMenu li a:hover, .userMenu li a.current{
+	background-color: #f4f5f4;
+}
+
+.userMenu li a.toUserInfo{
+	background-position: center 30px;
+}
+
+.userMenu li a.toUserInfo:hover, .userMenu li a.toUserInfoCurrent{
+	background-position: center -272px;
+}
+
+.userMenu li a.toLoanApply{
+	background-position: center -70px;
+}
+
+.userMenu li a.toLoanApply:hover, .userMenu li a.toLoanApplyCurrent{
+	background-position: center -372px;
+}
+
+.userMenu li a.toParter{
+	background-position: center -170px;
+}
+
+.userMenu li a.toParter:hover, .userMenu li a.toParterCurrent{
+	background-position: center -472px;
+}
+
+/************************************************
+userManager - content
+************************************************/
+.content{
+	background: #fff;
+	width: 720px;
+	float: right;
+	min-height: 260px;
+	padding: 20px;
+}
+

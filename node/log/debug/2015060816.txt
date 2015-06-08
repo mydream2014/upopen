@@ -1,0 +1,149 @@
+[2015-06-08 16:26:45.856] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-08 16:26:45.957] [INFO] logInfo - server start3000
+[2015-06-08 16:26:45.959] [INFO] logInfo - redis connect
+[2015-06-08 16:26:45.962] [WARN] logInfo - redis connect again
+[2015-06-08 16:26:45.962] [INFO] logInfo - redis set VerifyLoginTime::{}
+[2015-06-08 16:27:33.086] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-08 16:27:33.187] [INFO] logInfo - server start3000
+[2015-06-08 16:27:33.189] [INFO] logInfo - redis connect
+[2015-06-08 16:27:33.192] [WARN] logInfo - redis connect again
+[2015-06-08 16:27:33.192] [INFO] logInfo - redis set VerifyLoginTime::{}
+[2015-06-08 16:29:04.692] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-08 16:29:04.792] [INFO] logInfo - server start3000
+[2015-06-08 16:29:04.795] [INFO] logInfo - redis connect
+[2015-06-08 16:29:04.797] [WARN] logInfo - redis connect again
+[2015-06-08 16:29:04.797] [INFO] logInfo - redis set VerifyLoginTime::{}
+[2015-06-08 16:29:08.628] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:29:08.724] [INFO] logInfo - /user/getVerifyCode:::::::::::::GET
+[2015-06-08 16:29:08.729] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/verify/getImgCode?',
+  method: 'get',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'close',
+     'cache-control': 'max-age=0',
+     accept: 'image/webp,*/*;q=0.8',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     referer: 'http://web.qjdchina.com/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'Hm_lvt_fca615d6ad621b43ae678025faa5727e=1433403355; qqmail_alias=jiangguangcai@qjdchina.com; Hm_lvt_83af4d60fe4ee2fa7715be9b321264a0=1433472236,1433744331; Hm_lpvt_83af4d60fe4ee2fa7715be9b321264a0=1433744374' } }
+[2015-06-08 16:29:08.893] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:29:08.904] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:29:10.259] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:29:10.293] [INFO] logInfo - /user/getVerifyCode:::::::::::::GET
+[2015-06-08 16:29:10.295] [INFO] logInfo - { host: '10.1.1.62',
+  port: 80,
+  path: '/cif/front/verify/getImgCode?',
+  method: 'get',
+  headers: 
+   { host: 'qjdchina.com',
+     connection: 'close',
+     'cache-control': 'max-age=0',
+     accept: 'image/webp,*/*;q=0.8',
+     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36',
+     referer: 'http://web.qjdchina.com/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'Hm_lvt_fca615d6ad621b43ae678025faa5727e=1433403355; qqmail_alias=jiangguangcai@qjdchina.com; Hm_lvt_83af4d60fe4ee2fa7715be9b321264a0=1433472236,1433744331; Hm_lpvt_83af4d60fe4ee2fa7715be9b321264a0=1433744374; JSESSIONID=31CCF3FB987849346DE2802972A09EF5' } }
+[2015-06-08 16:29:10.354] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:29:10.373] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:37:35.347] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:37:35.443] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:37:35.451] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:38:25.890] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:38:25.978] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:38:25.996] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:39:01.723] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:39:01.804] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:39:01.809] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:39:40.300] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:39:40.450] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:39:40.458] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:40:39.460] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:40:39.564] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:40:39.590] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:41:03.011] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:41:03.148] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:41:03.160] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:41:41.931] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:41:42.086] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:41:42.093] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:42:31.500] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:42:31.638] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:42:31.657] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:42:45.757] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:42:45.898] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:42:45.914] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:43:11.751] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:43:11.858] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:43:11.880] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:43:47.387] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:43:47.506] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:43:47.527] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:43:51.075] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:43:51.182] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:43:51.193] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:43:57.538] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:43:57.667] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:43:57.686] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:43:58.450] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:43:58.577] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:43:58.586] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:44:25.385] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:44:25.388] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:45:17.199] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:45:17.202] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:46:00.971] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:46:01.059] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:46:01.065] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:46:03.356] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:46:03.430] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:46:03.455] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:46:18.490] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:46:18.548] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:46:18.575] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:46:21.091] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:46:21.166] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:46:21.178] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:46:21.578] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:46:21.650] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:46:21.659] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:46:22.051] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:46:22.117] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:46:22.124] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:46:32.242] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:46:32.319] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:46:32.329] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:46:35.828] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:46:35.944] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:46:35.972] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:47:08.778] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:47:10.357] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:47:10.361] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:47:23.539] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:47:23.680] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:47:23.702] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:47:58.300] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:47:58.435] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:47:58.443] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:49:15.053] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:49:15.197] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:49:15.213] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:49:36.274] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:49:36.277] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:49:41.727] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:49:41.732] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:49:52.619] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:49:52.622] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:50:39.543] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:50:39.546] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 16:58:48.832] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-08 16:58:48.953] [INFO] logInfo - server start3000
+[2015-06-08 16:58:48.955] [INFO] logInfo - redis connect
+[2015-06-08 16:58:48.958] [WARN] logInfo - redis connect again
+[2015-06-08 16:58:48.958] [INFO] logInfo - redis set VerifyLoginTime::{}
+[2015-06-08 16:58:52.580] [INFO] logInfo - /:::::::::::::GET
+[2015-06-08 16:58:52.728] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 16:58:52.760] [INFO] logInfo - /error:::::::::::::GET

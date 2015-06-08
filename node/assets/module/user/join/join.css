@@ -1,0 +1,79 @@
+.join_main{
+	width: 800px;
+	margin: 50px auto;
+	background: url( ./imgs/join_ad.png ) 50px center no-repeat;
+}
+
+.join_form{
+	width: 500px;
+	float: right;
+}
+
+.join_head{
+	font-size: 16px;
+	height: 60px;
+	line-height: 60px;
+}
+
+.join_label{
+	display: block;
+	width: 100%;
+	padding: 4px 0;
+}
+
+.join_label .input_text{
+	width: 210px;
+}
+
+.join_label .join_model{
+	width: 76px;
+}
+
+.join_label .join_partner{
+	width: 130px;
+}
+
+.join_text{
+	width: 80px;
+	display: inline-block;
+}
+
+.join_label .join_smsCode{
+	width: 80px;
+	margin-right: 7px;
+}
+
+.join_label_btn{
+	width: 193px;
+}
+
+.join_prompt{
+	color: #f33d47;
+	padding-left: 6px;
+}
+
+.join_select{
+	width: 71px;
+	height: 26px;
+}
+
+.joinSubmit{
+	margin: 20px 0 0 225px;
+}
+
+.join_partner_box{
+	width: 368px;
+}
+
+.partner_handler{
+	width: 17px;
+	height: 17px;
+	display: block;
+	float: right;
+	margin: 4px;
+	background: url( ./imgs/join_handler.png ) no-repeat;
+}
+
+.partner_add{
+	background: url( ./imgs/join_handler.png ) right no-repeat;
+}

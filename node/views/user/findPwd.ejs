@@ -1,0 +1,39 @@
+<% include ../common/header.ejs %>
+<div class="container findPwd clearfix ">
+    <div class="findPwd_content">
+		<div class="findPwd_progress clearfix">
+			<ul class="findPwd_progress_text clearfix">
+				<li class="findPwd_progress_text_current">身份验证</li>
+				<li>重置密码</li>
+				<li>重置成功</li>
+			</ul>
+			<dl class="findPwd_progress_line clearfix">
+				<dt class="findPwd_progress_line_current">1</dt>
+				<dd></dd>
+				<dt>2</dt>
+				<dd></dd>
+				<dt>3</dt>
+			</dl>
+		</div>
+		<form id="findPwd" class="findPwdBox">
+			<label class="findPwd_label clearfix">
+				<span class="findPwd_text">手机号：</span>
+				<input type="text" id="phone" maxLength="11" class="input_text" />
+				<span class="findPwd_prompt findPwd_prompt_phone"></span></dd>
+			</label>
+		
+			<label class="findPwd_label clearfix">
+				<span class="findPwd_text">验证码：</span>
+				<input type="text" id="smsCode" maxLength="6" class="input_text findPwd_smsCode" />
+				<button class="btnSmsCode" id="fetchSms" type="button">点击获取验证码</button>
+				<span class="findPwd_prompt findPwd_prompt_smsCode"></span>
+			</label>
+			<label class="findPwd_label clearfix">
+				<span class="findPwd_text"></span>
+				<button type="submit" class="btnGreen findPwd_label_btn">下一步</button>
+			</label>
+			
+		</form>
+    </div>
+</div>
+<% include ../common/footer.ejs %>
