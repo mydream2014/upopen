@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>three.js webgl - intersection: ray with box</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				font-family: Monospace;
+				background-color: #f0f0f0;
+				margin: 0px;
+				overflow: hidden;
+			}
+
+			#oldie { background-color: #ddd !important }
+
+			#info {
+				position: absolute;
+				top: 30px; left: 150px; width: 800px;
+				color: #000000;
+				padding: 5px;
+				font-family: Monospace;
+				font-size: 13px;
+				text-align: left;
+				z-index:100;
+			}
+
+			#options {
+				position: absolute;
+				top: 10px; left: 10px; width: 800px;
+				color: #000000;
+				padding: 5px;
+				font-family: Monospace;
+				font-size: 13px;
+				text-align: left;
+				z-index:100;
+			}
+		</style>
+		<script src="../build/Three.min.js"></script>
+
+		<script>
+
+			var camera, cameraTarget, scene, renderer, info, mouse2d, sun, sphere;
+
+			var range = 400, speed = 1, sphereSize = 4;
+
+			var cubes = [];
+
+			var intersects, ray;
+
+			function init() {
+
+				container = document.createElement('div');
+				document.body.appendChild(container);
+
+				info = document.getElementById("info");
+
+				camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 10000 );
+				camera.position.set( 300, 120, 0 );
+
+				mouse2d = new THREE.Vector3( 0, 0, 1 );
+
+				scene = new THREE.Scene();
+
+				sphere = new THREE.Mesh( new THREE.SphereGeometry( sphereSize, 10, 10 ), new THREE.MeshLambertMaterial( { color: 0xff0000 } ) );
+				scene.add( sphere );
+
+				renderer = new THREE.WebGLRenderer();
+				renderer.setSize( window.innerWidth, window.innerHeight );
+				container.appendChild( renderer.domElement );
+
+				var ambientLight = new THREE.AmbientLight( 0xdddddd );
+				scene.add( ambientLight );
+
+				sun = new THREE.DirectionalLight( 0xffffff );
+				sun.position.set( 1, -1, 1 ).normalize();
+				scene.add( sun );
+
+				createObstacles();
+
+				container.onmousemove = onDocumentMouseMove;
+				animate();
+
+			}
+
+			function createObstacles(){
+
+				createCube( 100, 50, 10, new THREE.Vector3(0, 0, 100) );
+
+				cameraTarget = createCube( 100, 50, 10, new THREE.Vector3( 0, 0, 200 )) ;
+
+				createCube(100, 50, 10, new THREE.Vector3(0, 0, 300));
+
+			}
+
+			function createCube( sx, sy, sz, p ) {
+
+				var cube = new THREE.Mesh( new THREE.CubeGeometry( sx, sy, sz ), new THREE.MeshLambertMaterial( { color: 0x003300 } ) );
+				cube.position = p;
+				scene.add( cube );
+
+				
+				cubes.push( cube );
+				return cube;
+
+			}
+
+			function onDocumentMouseMove( event ){
+
+				event.preventDefault();
+				mouse2d.x = (event.clientX / window.innerWidth) * 2 - 1;
+				mouse2d.y = -(event.clientY / window.innerHeight) * 2 + 1;
+				mouse2d.z = 1;
+
+			}
+
+			function animate() {
+
+				requestAnimationFrame( animate );
+
+				sphere.position.z += speed;
+
+				camera.lookAt( cameraTarget.position );
+
+				renderer.render( scene, camera );
+
+				collisionDetection( sphere )
+
+			}
+
+
+			
+			function collisionDetection( el ){
+		
+				debugger
+				ray = new THREE.Ray(el.position, new THREE.Vector3( 0, 0, 1 ) );
+				intersects = ray.intersectObjects( cubes );
+				
+				if(intersects.length > 0){
+					var x1 = el.position.x;
+					var y1 = el.position.y;
+					var z1 = el.position.z;
+					var x2 = intersects[ 0 ].point.x;
+					var y2 = intersects[ 0 ].point.y;
+					var z2 = intersects[ 0 ].point.z;
+					var distance = Math.sqrt( Math.pow( x1 - x2, 2 ) + Math.pow( y1 - y2, 2 ) + Math.pow( z1 - z2, 2 ) );
+					if(distance <= el.boundRadius){
+						intersects[ 0 ].object.material.color.setHex( 0xff0000 );
+						document.querySelector('#log').innerHTML += 'hit!<br>';
+					}
+				}
+				if(oldIntersectsLength > intersects.length){
+					document.querySelector('#log').innerHTML += 'passed<br>';
+				}
+				oldIntersectsLength = intersects.length;
+			
+			}
+
+			function vts(v){
+
+				if (!v)
+					return "undefined<br>";
+				else
+					return v.x + " , " + v.y + " , " + v.z + "<br>";
+
+			}
+
+		</script>
+
+	</head>
+
+	<body onload="init();">
+		<div id="info"></div>
+		<div id="options"></div>
+	</body>
+
+</html>

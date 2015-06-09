@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>TANK</title>
+<link href="/stylesheets/reset.css" rel="stylesheet" />
+<link href="/stylesheets/style.css" rel="stylesheet" />
+<link href="/stylesheets/animate.css" rel="stylesheet" />
+</head>
+<body>
+<header>
+	<h1>坦克大战<h1>
+</header>
+
+<div class="load">
+	<div class="line fadeInUpBig"></div>
+	<div class="box">
+		<div class="screw _a screw_rotate">+</div>
+		<div class="screw _b screw_rotate">+</div>
+		<div class="screw _c screw_rotate">+</div>
+		<div class="screw _d screw_rotate">+</div>
+		<div class="progress">0</div>
+	</div>
+</div>
+
+<div class="plane">
+	<div class="role">
+		<dl>
+			<dt>使用键盘选择玩家角色</dt>
+			<dd>1、Counter Terrorists</dd>
+			<dd>2、Terrorists</dd>
+		</dl>
+	</div>
+	<div class="setName hide">
+		<input class="username" type="text" name="user[login]" maxlength="10" class="textfield" placeholder="你的昵称" data-autocheck-url="/signup_check/username" autofocus="">
+	</div>
+</div>
+
+<div id="info" class="info hide">
+	<div class="list role_1">
+		<dl id="role_1">
+			<dt>Counter Terrorists</dt>
+			<dd></dd>
+		</dl>
+	</div>
+	<div class="list role_2">
+		<dl id="role_2">
+			<dt>Terrorists</dt>
+			<dd></dd>
+		</dl>
+	</div>
+</div>
+
+<div id="guide" class="guide hide">
+	<button class="gui_close">x</button>
+	<div class="gui_title">驾驶手册</div>
+	<div class="keyboardBox dirBox">
+		<tt class="keyboard key_t"> &lt--</tt>
+		<tt class="keyboard key_l"> &lt--</tt>
+		<tt class="keyboard key_r"> &lt--</tt>
+		<tt class="keyboard key_b"> &lt--</tt>
+		<p class="keytext">行进 + 转向 or W/A/D/S</p>
+	</div>
+
+	<div class="keyboardBox spaceBox">
+		<tt class="keyboard key_space"> space </tt>
+		<p class="keytext">切换主机视角</p>
+	</div>
+
+	<div class="keyboardBox enterBox">
+		<tt class="keyboard key_enter2"> Enter </tt>
+		<tt class="key_enter1">  </tt>
+		<tt class="keyboard key_ctrl"> Ctrl </tt>
+		<p class="keytext">向所有玩家发起会话</p>
+	</div>
+
+	<div class="keyboardBox enterBox">
+		<div id="qrcode" class="qrcode"></div>
+		<p class="keytext">手机扫描控制坦克行进</p>
+	</div>
+
+</div>
+
+<div class="mask"></div>
+
+<footer>
+	<div class="statistics">2013-09-23日开始共有<b id="usernum">0</b>个玩家参与</div><h4><a href="http://jiangxiao-2000.iteye.com/" target="_blank">作者[江潇]技术博客：ITEYE<a></h4>
+</footer>
+
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/javascripts/jquery.js"></script>
+<script src="javascripts/jquery.qrcode.min.js"></script>
+<script src="/javascripts/underscore.js"></script>
+<script src="/javascripts/backbone.js"></script>
+<script src="/javascripts/RequestAnimationFrame.js"></script>
+<script src="/javascripts/libs/stats.min.js"></script>
+<script src="/javascripts/libs/ImprovedNoise.js"></script>
+<script src="/javascripts/Detector.js"></script>
+<script src="javascripts/three.min.js"></script>
+<script src="javascripts/loaders/ColladaLoader.js"></script>
+<script src="javascripts/libs/tween.min.js"></script>
+<script src="javascripts/controls/OrbitControls.js"></script>
+<script src="javascripts/extras/Collisions.js"></script>
+<script src="javascripts/extras/CollisionUtils.js"></script>
+<script id="vertexShader" type="x-shader/x-vertex">
+	varying vec3 vWorldPosition;
+
+	void main() {
+
+		vec4 worldPosition = modelMatrix * vec4( position, 1.0 );
+		vWorldPosition = worldPosition.xyz;
+
+		gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
+
+	}
+</script>
+
+<script id="fragmentShader" type="x-shader/x-fragment">
+	uniform vec3 topColor;
+	uniform vec3 bottomColor;
+	uniform float offset;
+	uniform float exponent;
+
+	varying vec3 vWorldPosition;
+
+	void main() {
+
+		float h = normalize( vWorldPosition + offset ).y;
+		gl_FragColor = vec4( mix( bottomColor, topColor, max( pow( h, exponent ), 0.0 ) ), 1.0 );
+
+	}
+</script>
+<script>
+	/*
+	* course- 游戏流程线
+	*/
+	var Course = function(){
+	};
+	_.extend( Course.prototype, Backbone.Events );
+	var course = new Course;
+</script>
+<script src="/javascripts/user.js"></script>
+<script src="/javascripts/map.js"></script>
+<script src="/javascripts/chat.js"></script>
+<script src="/javascripts/tank.js"></script>
+<script src="/javascripts/Cloth.js"></script>
+<script src="/javascripts/index.js"></script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ffca615d6ad621b43ae678025faa5727e' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</html>
