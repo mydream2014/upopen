@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<meta name="viewport" content="width=device-width">
+<link rel="canonical" href="http://backbonejs.org" />
+<link href="../stylesheets/css.css" rel="stylesheet" />
+<title>中国象棋</title>
+<script>
+	var href = window.location.href;
+</script>
+<body>
+<header>
+	<h3>中国象棋<h3>
+</header>
+<div id="container" class="container">
+	<div class="tools">
+		<button id="start" class="btn disable" disabled>开始</button>
+		<button id="back" class="btn back hide">悔棋</button>
+	</div>
+	<div class="boxes">
+		<div class="box boxb">
+			<div class="boxin"></div>
+		</div>
+		<div class="box boxr">
+			<div class="boxin"></div>
+		</div>
+	</div>
+	<div id="prompt" class="text"></div>
+	<div class="msgbox">
+		<ul class="_panel"></ul>
+		<input type="text" class="_input" placeholder="回车发送此处输入的对话"/>
+	</div>
+</div>
+<footer>
+	<h4>作者[江潇]技术博客：<a href="http://jiangxiao-2000.iteye.com/" target="_blank">ITEYE<a> | <a href="http://jiangxiao-2000.iteye.com/" target="_blank">CSND<a></h4>
+</footer>
+</body>
+<script src="../javascripts/underscore.js"></script>
+<script src="../javascripts/jquery.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="../javascripts/json2.js"></script>
+<script src="../javascripts/backbone.js"></script>
+<script src="../javascripts/chess.js"></script>
+</html>
