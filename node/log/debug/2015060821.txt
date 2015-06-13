@@ -1,0 +1,4 @@
+[2015-06-08 21:20:03.956] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 21:20:03.962] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-08 21:20:27.679] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-08 21:20:27.682] [INFO] logInfo - /error:::::::::::::GET

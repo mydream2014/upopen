@@ -10,6 +10,12 @@ G - product:            贷款列表页面
 
 ************************************************/
 
+function article( req, res ){
+	
+	res.render( 'issue/article.ejs', global.webConfig.resSetting( req, '/issue' ) );
+
+}
+
 function product( req, res ){
 	
 	res.render( 'issue/product.ejs', global.webConfig.resSetting( req, '/issue' ) );
@@ -60,7 +66,8 @@ function addWiki( req, res ){
 
 
 module.exports = {
-
+	
+	article:          article,
 	product:      product,
 	wiki:         wiki,
 	legal:        legal,

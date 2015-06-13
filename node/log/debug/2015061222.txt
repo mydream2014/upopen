@@ -1,0 +1,558 @@
+[2015-06-12 22:02:14.430] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-12 22:02:15.555] [INFO] logInfo - server start3000
+[2015-06-12 22:04:22.768] [ERROR] logInfo - redis error =========
+[2015-06-12 22:04:22.990] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-12 22:04:23.088] [INFO] logInfo - server start3000
+[2015-06-12 22:06:30.256] [ERROR] logInfo - redis error =========
+[2015-06-12 22:06:30.471] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-12 22:06:30.565] [INFO] logInfo - server start3000
+[2015-06-12 22:08:36.491] [INFO] logInfo - /index.html:::::::::::::GET
+[2015-06-12 22:08:36.492] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:36.502] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:36.502] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:36.698] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:08:36.699] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:36.701] [INFO] logInfo - /public/jquery.form.js:::::::::::::GET
+[2015-06-12 22:08:36.704] [INFO] logInfo - /module/issue/error/error.css:::::::::::::GET
+[2015-06-12 22:08:36.727] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:36.727] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:36.739] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:36.746] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:36.763] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:08:36.764] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:36.804] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:36.804] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:36.819] [INFO] logInfo - /module/issue/error/error.js:::::::::::::GET
+[2015-06-12 22:08:36.841] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:37.744] [ERROR] logInfo - redis error =========
+[2015-06-12 22:08:37.949] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-12 22:08:38.041] [INFO] logInfo - server start3000
+[2015-06-12 22:08:46.013] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-12 22:08:46.014] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:46.026] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:46.026] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:48.866] [INFO] logInfo - /:::::::::::::GET
+[2015-06-12 22:08:48.866] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:48.957] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:08:48.957] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:48.959] [INFO] logInfo - /public/jquery.form.js:::::::::::::GET
+[2015-06-12 22:08:48.966] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:48.966] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:48.974] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:48.995] [INFO] logInfo - /module/index/imgs/banner.png:::::::::::::GET
+[2015-06-12 22:08:48.995] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.029] [INFO] logInfo - /module/index/imgs/pic_tank.png:::::::::::::GET
+[2015-06-12 22:08:49.030] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.031] [INFO] logInfo - /module/index/imgs/icon_tank.png:::::::::::::GET
+[2015-06-12 22:08:49.031] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.042] [INFO] logInfo - /module/index/imgs/pic_chess.png:::::::::::::GET
+[2015-06-12 22:08:49.042] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.044] [INFO] logInfo - /module/index/imgs/icon_chess.png:::::::::::::GET
+[2015-06-12 22:08:49.044] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.045] [INFO] logInfo - /module/index/imgs/pic_draughts.png:::::::::::::GET
+[2015-06-12 22:08:49.045] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.049] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:49.049] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.058] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:49.058] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.060] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:49.061] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.062] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:49.063] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.067] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:49.067] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.071] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:08:49.071] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.072] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:49.072] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.084] [INFO] logInfo - /module/index/imgs/icon_draughts.png:::::::::::::GET
+[2015-06-12 22:08:49.084] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.101] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:49.101] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.103] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:49.103] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.200] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-12 22:08:49.201] [WARN] logInfo - getcookie error
+[2015-06-12 22:08:49.203] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:08:49.203] [WARN] logInfo - getcookie error
+[2015-06-12 22:09:39.880] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:09:39.936] [INFO] logInfo - /module/issue/error/error.css:::::::::::::GET
+[2015-06-12 22:09:39.937] [INFO] logInfo - /public/jquery.form.js:::::::::::::GET
+[2015-06-12 22:09:39.946] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:09:39.950] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:09:40.034] [INFO] logInfo - /module/issue/error/error.js:::::::::::::GET
+[2015-06-12 22:09:40.039] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:09:40.048] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-12 22:09:40.057] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:10:45.232] [ERROR] logInfo - redis error =========
+[2015-06-12 22:10:45.440] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-12 22:10:45.535] [INFO] logInfo - server start3000
+[2015-06-12 22:11:33.582] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-12 22:11:33.674] [INFO] logInfo - server start3000
+[2015-06-12 22:11:37.551] [INFO] logInfo - /:::::::::::::GET
+[2015-06-12 22:11:37.552] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.629] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:11:37.630] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.648] [INFO] logInfo - /public/jquery.form.js:::::::::::::GET
+[2015-06-12 22:11:37.648] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.657] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:37.657] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.693] [INFO] logInfo - /module/index/imgs/banner.png:::::::::::::GET
+[2015-06-12 22:11:37.694] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.717] [INFO] logInfo - /module/index/imgs/pic_tank.png:::::::::::::GET
+[2015-06-12 22:11:37.718] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.777] [INFO] logInfo - /module/index/imgs/icon_tank.png:::::::::::::GET
+[2015-06-12 22:11:37.777] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.780] [INFO] logInfo - /module/index/imgs/pic_chess.png:::::::::::::GET
+[2015-06-12 22:11:37.780] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.785] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:37.786] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.825] [INFO] logInfo - /module/index/imgs/icon_chess.png:::::::::::::GET
+[2015-06-12 22:11:37.825] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.857] [INFO] logInfo - /module/index/imgs/pic_draughts.png:::::::::::::GET
+[2015-06-12 22:11:37.858] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.863] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:37.863] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.871] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:37.872] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.876] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:37.877] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.880] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:37.880] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.882] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:37.882] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.886] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:37.886] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.889] [INFO] logInfo - /module/index/imgs/icon_draughts.png:::::::::::::GET
+[2015-06-12 22:11:37.889] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.904] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:37.904] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.959] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-12 22:11:37.960] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:37.964] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:37.964] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.648] [INFO] logInfo - /:::::::::::::GET
+[2015-06-12 22:11:38.648] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.674] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:11:38.675] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.687] [INFO] logInfo - /public/jquery.form.js:::::::::::::GET
+[2015-06-12 22:11:38.687] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.693] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:38.693] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.705] [INFO] logInfo - /module/index/imgs/banner.png:::::::::::::GET
+[2015-06-12 22:11:38.706] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.706] [INFO] logInfo - /module/index/imgs/pic_tank.png:::::::::::::GET
+[2015-06-12 22:11:38.706] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.709] [INFO] logInfo - /module/index/imgs/icon_tank.png:::::::::::::GET
+[2015-06-12 22:11:38.709] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.711] [INFO] logInfo - /module/index/imgs/pic_chess.png:::::::::::::GET
+[2015-06-12 22:11:38.711] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.712] [INFO] logInfo - /module/index/imgs/icon_chess.png:::::::::::::GET
+[2015-06-12 22:11:38.712] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.758] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:38.758] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.769] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:38.769] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.782] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:38.782] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.786] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:38.786] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.788] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:38.788] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.794] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:38.794] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.797] [INFO] logInfo - /module/index/imgs/pic_draughts.png:::::::::::::GET
+[2015-06-12 22:11:38.797] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.797] [INFO] logInfo - /module/index/imgs/icon_draughts.png:::::::::::::GET
+[2015-06-12 22:11:38.798] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.834] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:38.834] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.838] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:38.838] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.899] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-12 22:11:38.899] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:38.910] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:38.910] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:39.877] [INFO] logInfo - /:::::::::::::GET
+[2015-06-12 22:11:39.877] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:39.906] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:11:39.906] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:39.911] [INFO] logInfo - /public/jquery.form.js:::::::::::::GET
+[2015-06-12 22:11:39.911] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:39.918] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:39.918] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:39.926] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:39.926] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:39.934] [INFO] logInfo - /module/index/imgs/banner.png:::::::::::::GET
+[2015-06-12 22:11:39.934] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:39.938] [INFO] logInfo - /module/index/imgs/pic_tank.png:::::::::::::GET
+[2015-06-12 22:11:39.938] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:39.941] [INFO] logInfo - /module/index/imgs/icon_tank.png:::::::::::::GET
+[2015-06-12 22:11:39.942] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:39.946] [INFO] logInfo - /module/index/imgs/pic_chess.png:::::::::::::GET
+[2015-06-12 22:11:39.946] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:39.949] [INFO] logInfo - /module/index/imgs/icon_chess.png:::::::::::::GET
+[2015-06-12 22:11:39.949] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:39.963] [INFO] logInfo - /module/index/imgs/pic_draughts.png:::::::::::::GET
+[2015-06-12 22:11:39.963] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:39.989] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:39.989] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:39.995] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:39.995] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.001] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.001] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.007] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.007] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.013] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.013] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.019] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.019] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.023] [INFO] logInfo - /module/index/imgs/icon_draughts.png:::::::::::::GET
+[2015-06-12 22:11:40.024] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.049] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.049] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.100] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-12 22:11:40.101] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.104] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.104] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.170] [INFO] logInfo - /:::::::::::::GET
+[2015-06-12 22:11:40.170] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.187] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:11:40.188] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.192] [INFO] logInfo - /public/jquery.form.js:::::::::::::GET
+[2015-06-12 22:11:40.193] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.204] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.204] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.210] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.210] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.215] [INFO] logInfo - /module/index/imgs/banner.png:::::::::::::GET
+[2015-06-12 22:11:40.215] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.218] [INFO] logInfo - /module/index/imgs/pic_tank.png:::::::::::::GET
+[2015-06-12 22:11:40.218] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.220] [INFO] logInfo - /module/index/imgs/icon_tank.png:::::::::::::GET
+[2015-06-12 22:11:40.221] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.230] [INFO] logInfo - /module/index/imgs/pic_chess.png:::::::::::::GET
+[2015-06-12 22:11:40.230] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.231] [INFO] logInfo - /module/index/imgs/icon_chess.png:::::::::::::GET
+[2015-06-12 22:11:40.231] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.236] [INFO] logInfo - /module/index/imgs/pic_draughts.png:::::::::::::GET
+[2015-06-12 22:11:40.236] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.274] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.274] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.276] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.277] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.282] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.282] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.289] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.290] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.297] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.298] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.300] [INFO] logInfo - /module/index/imgs/icon_draughts.png:::::::::::::GET
+[2015-06-12 22:11:40.301] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.301] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.301] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.317] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.317] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.372] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-12 22:11:40.373] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.384] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.384] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.409] [INFO] logInfo - /:::::::::::::GET
+[2015-06-12 22:11:40.410] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.459] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:11:40.459] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.466] [INFO] logInfo - /public/jquery.form.js:::::::::::::GET
+[2015-06-12 22:11:40.466] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.479] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.479] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.486] [INFO] logInfo - /module/index/imgs/banner.png:::::::::::::GET
+[2015-06-12 22:11:40.486] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.490] [INFO] logInfo - /module/index/imgs/pic_tank.png:::::::::::::GET
+[2015-06-12 22:11:40.490] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.491] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.491] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.493] [INFO] logInfo - /module/index/imgs/icon_tank.png:::::::::::::GET
+[2015-06-12 22:11:40.493] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.501] [INFO] logInfo - /module/index/imgs/pic_chess.png:::::::::::::GET
+[2015-06-12 22:11:40.502] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.510] [INFO] logInfo - /module/index/imgs/icon_chess.png:::::::::::::GET
+[2015-06-12 22:11:40.510] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.512] [INFO] logInfo - /module/index/imgs/pic_draughts.png:::::::::::::GET
+[2015-06-12 22:11:40.512] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.534] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.535] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.540] [INFO] logInfo - /module/index/imgs/icon_draughts.png:::::::::::::GET
+[2015-06-12 22:11:40.540] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.545] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.546] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.550] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.551] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.566] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.566] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.569] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.569] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.571] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.571] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.574] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.574] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.643] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-12 22:11:40.643] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:40.651] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:40.651] [WARN] logInfo - getcookie error
+[2015-06-12 22:11:59.320] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:11:59.320] [WARN] logInfo - getcookie error
+[2015-06-12 22:13:40.848] [ERROR] logInfo - redis error =========
+[2015-06-12 22:13:41.059] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-12 22:13:41.157] [INFO] logInfo - server start3000
+[2015-06-12 22:14:53.644] [INFO] logInfo - /:::::::::::::GET
+[2015-06-12 22:14:53.645] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.693] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:14:53.693] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.712] [INFO] logInfo - /public/jquery.form.js:::::::::::::GET
+[2015-06-12 22:14:53.713] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.741] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:53.741] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.772] [INFO] logInfo - /module/index/imgs/banner.png:::::::::::::GET
+[2015-06-12 22:14:53.773] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.777] [INFO] logInfo - /module/index/imgs/pic_tank.png:::::::::::::GET
+[2015-06-12 22:14:53.777] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.778] [INFO] logInfo - /module/index/imgs/icon_tank.png:::::::::::::GET
+[2015-06-12 22:14:53.778] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.815] [INFO] logInfo - /module/index/imgs/pic_chess.png:::::::::::::GET
+[2015-06-12 22:14:53.815] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.816] [INFO] logInfo - /module/index/imgs/icon_chess.png:::::::::::::GET
+[2015-06-12 22:14:53.816] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.840] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:53.840] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.861] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:53.861] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.864] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:53.865] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.870] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:53.871] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.875] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:53.875] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.878] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:53.878] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.882] [INFO] logInfo - /module/index/imgs/pic_draughts.png:::::::::::::GET
+[2015-06-12 22:14:53.882] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.888] [INFO] logInfo - /module/index/imgs/icon_draughts.png:::::::::::::GET
+[2015-06-12 22:14:53.889] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.899] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:53.899] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.904] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:53.905] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.972] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-12 22:14:53.972] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:53.978] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:53.978] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.770] [INFO] logInfo - /:::::::::::::GET
+[2015-06-12 22:14:55.771] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.795] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:14:55.796] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.805] [INFO] logInfo - /public/jquery.form.js:::::::::::::GET
+[2015-06-12 22:14:55.805] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.819] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:55.819] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.826] [INFO] logInfo - /module/index/imgs/banner.png:::::::::::::GET
+[2015-06-12 22:14:55.826] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.827] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:55.827] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.830] [INFO] logInfo - /module/index/imgs/pic_tank.png:::::::::::::GET
+[2015-06-12 22:14:55.830] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.834] [INFO] logInfo - /module/index/imgs/icon_tank.png:::::::::::::GET
+[2015-06-12 22:14:55.835] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.843] [INFO] logInfo - /module/index/imgs/pic_chess.png:::::::::::::GET
+[2015-06-12 22:14:55.843] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.844] [INFO] logInfo - /module/index/imgs/icon_chess.png:::::::::::::GET
+[2015-06-12 22:14:55.844] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.846] [INFO] logInfo - /module/index/imgs/pic_draughts.png:::::::::::::GET
+[2015-06-12 22:14:55.847] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.879] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:55.879] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.883] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:55.883] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.890] [INFO] logInfo - /module/index/imgs/icon_draughts.png:::::::::::::GET
+[2015-06-12 22:14:55.890] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.897] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:55.897] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.900] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:55.900] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.904] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:55.904] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.906] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:55.906] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:55.919] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:55.919] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.011] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-12 22:14:56.012] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.016] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.016] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.123] [INFO] logInfo - /:::::::::::::GET
+[2015-06-12 22:14:56.124] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.143] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:14:56.143] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.150] [INFO] logInfo - /public/jquery.form.js:::::::::::::GET
+[2015-06-12 22:14:56.150] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.161] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.161] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.166] [INFO] logInfo - /module/index/imgs/banner.png:::::::::::::GET
+[2015-06-12 22:14:56.167] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.178] [INFO] logInfo - /module/index/imgs/pic_tank.png:::::::::::::GET
+[2015-06-12 22:14:56.178] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.181] [INFO] logInfo - /module/index/imgs/icon_tank.png:::::::::::::GET
+[2015-06-12 22:14:56.181] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.186] [INFO] logInfo - /module/index/imgs/pic_chess.png:::::::::::::GET
+[2015-06-12 22:14:56.187] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.193] [INFO] logInfo - /module/index/imgs/icon_chess.png:::::::::::::GET
+[2015-06-12 22:14:56.193] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.229] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.230] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.234] [INFO] logInfo - /module/index/imgs/pic_draughts.png:::::::::::::GET
+[2015-06-12 22:14:56.234] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.243] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.243] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.246] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.246] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.248] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.249] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.250] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.250] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.254] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.254] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.256] [INFO] logInfo - /module/index/imgs/icon_draughts.png:::::::::::::GET
+[2015-06-12 22:14:56.256] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.267] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.268] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.281] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.281] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.355] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-12 22:14:56.355] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.358] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.358] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.423] [INFO] logInfo - /:::::::::::::GET
+[2015-06-12 22:14:56.423] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.445] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:14:56.446] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.454] [INFO] logInfo - /public/jquery.form.js:::::::::::::GET
+[2015-06-12 22:14:56.454] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.462] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.463] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.470] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.470] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.475] [INFO] logInfo - /module/index/imgs/banner.png:::::::::::::GET
+[2015-06-12 22:14:56.476] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.486] [INFO] logInfo - /module/index/imgs/pic_tank.png:::::::::::::GET
+[2015-06-12 22:14:56.487] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.488] [INFO] logInfo - /module/index/imgs/icon_tank.png:::::::::::::GET
+[2015-06-12 22:14:56.489] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.490] [INFO] logInfo - /module/index/imgs/pic_chess.png:::::::::::::GET
+[2015-06-12 22:14:56.491] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.496] [INFO] logInfo - /module/index/imgs/icon_chess.png:::::::::::::GET
+[2015-06-12 22:14:56.497] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.498] [INFO] logInfo - /module/index/imgs/pic_draughts.png:::::::::::::GET
+[2015-06-12 22:14:56.498] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.535] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.535] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.543] [INFO] logInfo - /module/index/imgs/icon_draughts.png:::::::::::::GET
+[2015-06-12 22:14:56.544] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.551] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.551] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.558] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.558] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.567] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.567] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.571] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.571] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.574] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.575] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.577] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.577] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.597] [INFO] logInfo - /:::::::::::::GET
+[2015-06-12 22:14:56.597] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.639] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:14:56.641] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.646] [INFO] logInfo - /public/jquery.form.js:::::::::::::GET
+[2015-06-12 22:14:56.646] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.651] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.651] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.661] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.662] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.667] [INFO] logInfo - /module/index/imgs/banner.png:::::::::::::GET
+[2015-06-12 22:14:56.668] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.671] [INFO] logInfo - /module/index/imgs/pic_tank.png:::::::::::::GET
+[2015-06-12 22:14:56.671] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.671] [INFO] logInfo - /module/index/imgs/icon_tank.png:::::::::::::GET
+[2015-06-12 22:14:56.672] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.674] [INFO] logInfo - /module/index/imgs/pic_chess.png:::::::::::::GET
+[2015-06-12 22:14:56.674] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.675] [INFO] logInfo - /module/index/imgs/icon_chess.png:::::::::::::GET
+[2015-06-12 22:14:56.675] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.676] [INFO] logInfo - /module/index/imgs/pic_draughts.png:::::::::::::GET
+[2015-06-12 22:14:56.676] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.733] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.733] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.737] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.738] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.741] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.742] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.746] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.746] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.748] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.749] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.757] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.757] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.761] [INFO] logInfo - /module/index/imgs/icon_draughts.png:::::::::::::GET
+[2015-06-12 22:14:56.762] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.773] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.773] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.842] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-12 22:14:56.842] [WARN] logInfo - getcookie error
+[2015-06-12 22:14:56.845] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:14:56.846] [WARN] logInfo - getcookie error
+[2015-06-12 22:15:48.336] [ERROR] logInfo - redis error =========
+[2015-06-12 22:15:48.542] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-12 22:15:48.636] [INFO] logInfo - server start3000
+[2015-06-12 22:16:07.334] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:16:07.335] [WARN] logInfo - getcookie error
+[2015-06-12 22:16:29.132] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-12 22:16:29.133] [WARN] logInfo - getcookie error
+[2015-06-12 22:16:29.141] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:16:29.141] [WARN] logInfo - getcookie error
+[2015-06-12 22:16:29.162] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:16:29.162] [WARN] logInfo - getcookie error
+[2015-06-12 22:16:40.250] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:16:40.250] [WARN] logInfo - getcookie error
+[2015-06-12 22:16:40.257] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:16:40.258] [WARN] logInfo - getcookie error
+[2015-06-12 22:16:40.277] [INFO] logInfo - /module/issue/error/error.css:::::::::::::GET
+[2015-06-12 22:16:40.277] [WARN] logInfo - getcookie error
+[2015-06-12 22:16:40.278] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:16:40.278] [WARN] logInfo - getcookie error
+[2015-06-12 22:16:40.280] [INFO] logInfo - /public/jquery.form.js:::::::::::::GET
+[2015-06-12 22:16:40.280] [WARN] logInfo - getcookie error
+[2015-06-12 22:16:40.350] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:16:40.350] [WARN] logInfo - getcookie error
+[2015-06-12 22:16:40.359] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:16:40.359] [WARN] logInfo - getcookie error
+[2015-06-12 22:16:40.372] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:16:40.372] [WARN] logInfo - getcookie error
+[2015-06-12 22:16:40.450] [INFO] logInfo - /module/issue/error/error.js:::::::::::::GET
+[2015-06-12 22:16:40.450] [WARN] logInfo - getcookie error
+[2015-06-12 22:16:40.452] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-12 22:16:40.452] [WARN] logInfo - getcookie error
+[2015-06-12 22:16:40.501] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:16:40.501] [WARN] logInfo - getcookie error
+[2015-06-12 22:16:40.505] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-12 22:16:40.505] [WARN] logInfo - getcookie error
+[2015-06-12 22:17:55.824] [ERROR] logInfo - redis error =========
+[2015-06-12 22:17:56.028] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-12 22:17:56.121] [INFO] logInfo - server start3000
+[2015-06-12 22:20:39.201] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-12 22:20:39.293] [INFO] logInfo - server start3000
+[2015-06-12 22:20:45.118] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:20:45.119] [WARN] logInfo - getcookie error
+[2015-06-12 22:20:45.167] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-12 22:20:45.167] [WARN] logInfo - getcookie error
+[2015-06-12 22:21:11.830] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-12 22:21:11.830] [WARN] logInfo - getcookie error

@@ -1,0 +1,7 @@
+[2015-06-09 18:35:07.734] [INFO] logInfo - redis connnected status is :::::::false
+[2015-06-09 18:35:09.125] [INFO] logInfo - server start3000
+[2015-06-09 18:35:09.127] [INFO] logInfo - redis connect
+[2015-06-09 18:35:09.129] [WARN] logInfo - redis connect again
+[2015-06-09 18:35:09.130] [INFO] logInfo - redis set VerifyLoginTime::{}
+[2015-06-09 18:36:05.923] [INFO] logInfo - /:::::::::::::GET
+[2015-06-09 18:36:05.923] [WARN] logInfo - getcookie error

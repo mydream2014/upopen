@@ -153,6 +153,12 @@ exports.all = function( app ){
 	
 	************************************************/
 
+	app.get( '/article', function( req, res ){
+		
+		issue.article( req, res );
+
+	} );
+
 	app.get( '/product', function( req, res ){
 		
 		issue.product( req, res );
@@ -411,7 +417,7 @@ exports.all = function( app ){
 
 	/***********************************************
 	404
-	************************************************/
+	*************************************************/
 
 	app.get( '/error', function( req, res ){
 		
@@ -424,5 +430,6 @@ exports.all = function( app ){
 		res.redirect( '/error' );
 		
 	});
+	
 
 };

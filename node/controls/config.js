@@ -7,6 +7,7 @@ global.webConfig = {
 		'/error': '惊呆了',
 		'/product': '产品介绍',
 		'/wiki': '帮助中心',
+		'/article': '技术文章',
 		'/introduction': '关于我们',
 		'/news': '媒体报道',
 		'/aboutus': '联系我们',
@@ -24,7 +25,7 @@ global.webConfig = {
 		'/loan/failed': '贷款失败',
 		'/loan/status': '贷款状态'
 	},
-	basePath: 'http://web.qjdchina.com',
+	basePath: 'http://www.upopen.cn', //'http://www.demo.com',
 	min: '',//'/min',
 	resSetting: function( req, path ){
 		console.log( req.path + ' =========')
