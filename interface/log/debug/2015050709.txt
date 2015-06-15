@@ -1,0 +1,3 @@
+[2015-05-07 09:02:38.815] [INFO] logInfo - server start80
+[2015-05-07 09:13:42.343] [INFO] logInfo - server start80
+[2015-05-07 09:16:54.971] [INFO] logInfo - server start80

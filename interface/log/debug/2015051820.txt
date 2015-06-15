@@ -1,0 +1,71 @@
+[2015-05-18 20:04:42.808] [INFO] logInfo - { host: '',
+  hostname: 'web.qjdchina.com?',
+  port: '8090',
+  path: '/cif/front/user/login?phone=13675896031&password=qqwe321&__proto__=',
+  method: 'GET',
+  headers: 
+   { host: 'web.qjdchina.com:8090',
+     connection: 'keep-alive',
+     pragma: 'no-cache',
+     'cache-control': 'no-cache',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36',
+     referer: 'http://web.qjdchina.com:8090/?',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8,en;q=0.6' } }
+[2015-05-18 20:04:42.812] [INFO] logInfo - request error ======================================= 
+[2015-05-18 20:04:42.812] [INFO] logInfo - getaddrinfo ENOTFOUND web.qjdchina.com?
+[2015-05-18 20:05:02.918] [INFO] logInfo - server start8090
+[2015-05-18 20:05:08.614] [INFO] logInfo - { host: '',
+  hostname: 'web.qjdchina.com?',
+  port: '8090',
+  path: '/cif/front/user/login?phone=13675896031&password=qqwe321&__proto__=',
+  method: 'GET',
+  headers: 
+   { host: 'web.qjdchina.com:8090',
+     connection: 'keep-alive',
+     pragma: 'no-cache',
+     'cache-control': 'no-cache',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36',
+     referer: 'http://web.qjdchina.com:8090/?',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8,en;q=0.6' } }
+[2015-05-18 20:05:08.619] [INFO] logInfo - request error ======================================= 
+[2015-05-18 20:05:08.619] [INFO] logInfo - getaddrinfo ENOTFOUND web.qjdchina.com?
+[2015-05-18 20:05:22.061] [INFO] logInfo - server start8090
+[2015-05-18 20:05:33.280] [INFO] logInfo - { host: '',
+  hostname: 'web.qjdchina.com',
+  port: '3001',
+  path: '/cif/front/user/login?phone=13675896031&password=qqwe321&__proto__=',
+  method: 'GET',
+  headers: 
+   { host: 'web.qjdchina.com:8090',
+     connection: 'keep-alive',
+     pragma: 'no-cache',
+     'cache-control': 'no-cache',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36',
+     referer: 'http://web.qjdchina.com:8090/?',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8,en;q=0.6' } }
+[2015-05-18 20:06:36.855] [INFO] logInfo - server start8090
+[2015-05-18 20:06:50.281] [INFO] logInfo - { host: '',
+  hostname: 'web.qjdchina.com',
+  port: '3001',
+  path: '/cif/front/user/login?phone=13675896031&password=qqwe321&__proto__=',
+  method: 'GET',
+  headers: 
+   { host: 'web.qjdchina.com:8090',
+     connection: 'keep-alive',
+     pragma: 'no-cache',
+     'cache-control': 'no-cache',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36',
+     referer: 'http://web.qjdchina.com:8090/?',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8,en;q=0.6' } }

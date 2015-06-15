@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	padding:0;
+	margin:0;
+	background: #f4f4f4;
+}
+*{
+	font-family: PingHei, 'Microsoft YaHei', 'Lucida Grande', 'Lucida Sans Unicode', STHeiti, Helvetica, Arial, Verdana, sans-serif ;
+	font-weight: normal;
+}
+section{
+	width: 960px;
+	margin: 0 auto;
+	
+	padding: 20px;
+	border-top: 10px solid #d4d4d4;
+}
+
+h2{
+	font-size: 16px;
+}
+
+info{
+	font-size: 12px;
+	color: #afafaf;
+	padding-left: 20px;
+}
+
+input{
+	width: 200px;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 5px;
+}
+
+select{
+	width: 200px;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 5px;
+	
+}
+
+input.url{
+	width: 560px;
+}
+
+.label{
+	width: 60px;
+	display: inline-block;
+}
+
+button{
+	width: 100px;
+	height: 30px;
+	line-height: 24px;
+	
+	margin: 20px 0 0 60px;
+}
+
+pre{
+	float: left;
+	width: 400px;
+	
+}
+
+pre.code{
+	border-right: 1px solid #afafaf;
+	margin-right: 20px;
+}
+
+result{
+	float: left;
+	width: 500px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.bodyGrey{
+	background: #f1f1f1;
+}
+
+.ellipsis{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+}
+.clearfix { display: inline-table; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+</style>
+</head>
+
+<body>
+
+
+
+<section class="clearfix">
+<h2>注册接口<info>访客注册会员</info></h2>
+<input type="text" class="url clearfix" name="url" id="registerActionUrl" value="http://service.qjdchina.com:3001/register" />
+<pre class="code">
+<form id="registerAction">
+<label><span class="label">手机号</span><input  type="text" id="registerActionPhone" /></label><br />
+<label><span class="label">密码</span><input type="text" id="registerActionPassword" /></label><br />
+<label><span class="label">联系人</span><input type="text" id="registerActionName" /></label><br />
+<label><span class="label">省</span><input type="text" id="registerActionProvince" /></label><br />
+<label><span class="label">市</span><input type="text" id="registerActionCity" /></label><br />
+<label><span class="label">区</span><input type="text" id="registerActionStrict" /></label><br />
+<label><span class="label">地址</span><input type="text" id="registerActionAddress" /></label>
+<button type="submit">保&nbsp;&nbsp;存</button>
+</pre>
+<pre id="registerActionRet" class="result">
+
+</pre>
+</form>
+</section>
+
+<section class="clearfix">
+<h2>登录接口<info>会员登录站点</info></h2>
+<input type="text" class="url clearfix" name="url" id="loginActionUrl" value="http://service.qjdchina.com:3001/login" />
+<pre class="code">
+<form id="loginAction">
+<label><span class="label">手机号</span><input  type="text" id="loginActionPhone" /></label><br />
+<label><span class="label">密码</span><input type="text" id="loginActionPassword" /></label>
+<button type="submit">保&nbsp;&nbsp;存</button>
+</pre>
+<pre id="loginActionRet" class="result">
+
+</pre>
+</form>
+</section>
+
+<section class="clearfix">
+<h2>增加合作厂家<info>会员在会员中心增加合作厂家</info></h2>
+<input type="text" class="url clearfix" name="url" id="addParterActionUrl" value="http://service.qjdchina.com:3001/addParter" />
+<pre class="code">
+<form id="addParterAction">
+<label><span class="label">品类</span><input type="text" id="addParterActionModel" /><br />
+<label><span class="label">厂商</span><input type="text" id="addParterActionCompany" /></label>
+<button type="submit">保&nbsp;&nbsp;存</button>
+</pre>
+<pre id="addParterActionRet" class="result">
+
+</pre>
+</form>
+</section>
+
+<section class="clearfix">
+<h2>查找合作厂家<info>会员查找属于自己的合作厂家</info></h2>
+<input type="text" class="url clearfix" name="url" id="fetchPartersActionUrl" value="http://service.qjdchina.com:3001/fetchParters" />
+<pre class="code">
+<form id="fetchPartersAction">
+<label><span class="label">手机号</span><input type="text" id="fetchPartersPhone" /><br />
+<button type="submit">保&nbsp;&nbsp;存</button>
+</pre>
+<pre id="fetchPartersActionRet" class="result">
+
+</pre>
+</form>
+</section>
+
+<script src="/assets/js/jquery.js"></script>
+
+<script>
+
+$('#registerAction').on('submit', function(){
+	$.ajax({
+		url: $('#registerActionUrl').val(),
+		type: 'get',
+		data: {
+			phone: $('#registerActionPhone').val(),
+			password: $('#registerActionPassword').val(),
+			name: $('#registerActionPassword').val(),
+			province : $('#registerActionProvince ').val(),
+			city: $('#registerActionCity').val(),
+			strict: $('#registerActionStrict').val(),
+			address: $('#registerActionAddress').val(),
+			date: '20150415'
+		},
+		success: function( ret ){
+			$('#registerActionRet').html( JSON.stringify( ret, null, 8 ) );
+		}
+	});
+	return false;
+});
+
+$('#loginAction').on('submit', function(){
+	$.ajax({
+		url: $('#loginActionUrl').val(),
+		type: 'get',
+		data: {
+			phone: $('#loginActionPhone').val(),
+			password: $('#loginActionPassword').val()
+		},
+		success: function( ret ){
+			$('#loginActionRet').html( JSON.stringify( ret, null, 8 ) );
+		}
+	});
+	return false;
+});
+
+$('#addParterAction').on('submit', function(){
+	$.ajax({
+		url: $('#addParterActionUrl').val(),
+		type: 'get',
+		data: {
+			model: $('#addParterActionModel').val(),
+			company: $('#addParterActionCompany').val(),
+			phone: '13675896031',
+			status: 0,
+			date: '20150415',
+			annex: ''
+		},
+		success: function( ret ){
+			$('#addParterActionRet').html( JSON.stringify( ret, null, 8 ) );
+		}
+	});
+	return false;
+});
+
+$('#fetchPartersAction').on('submit', function(){
+	$.ajax({
+		url: $('#fetchPartersActionUrl').val(),
+		type: 'get',
+		data: {
+			phone: $('#fetchPartersPhone').val()
+		},
+		success: function( ret ){
+			$('#fetchPartersActionRet').html( JSON.stringify( ret, null, 8 ) );
+		}
+	});
+	return false;
+});
+</script>
+</body>
+
+</html>
