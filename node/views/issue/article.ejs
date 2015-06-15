@@ -13,7 +13,7 @@
 	<p>网上还有其它的理解，大致相同就不列举了。</p><br />
 
 <h2>三、如何做分离</h2>
-	<p>1、产品设计确定后，前后端人员共同制定开发接口，为方便接口的制定、显示、测试，使用nodejs+mongodb开发了接口平台。参见www.upopen.cn/interface。
+	<p>1、产品设计确定后，前后端人员共同制定开发接口，为方便接口的制定、显示、测试，使用nodejs+mongodb开发了接口平台。参见http://www.upopen.cn:8090/interface/index。
 功能：制定接口时就直接在interface平台上新增录入ActionName、description、  method、 param 及 默认值 等并保存到mongodb，当后台开发完成后，直接用在该页面做接口测试，成功后方可交付，避免联调过程中的接口反复。（原本想用interface.upopen.cn 来测试同域名下的项目，但因cookie在不同二级域名下无法共享的问题，暂用了二级目录，不过已有方案，后续优化）<p>
 
 	<p>2、从前端角度考虑系统架构图如下：<p>
