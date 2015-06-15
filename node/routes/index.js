@@ -4,10 +4,11 @@ var http  = require( 'http' ),
 	tool  = require( '../controls/tool' ),
 	qs    = require( 'querystring' ),
 	log4js       = require( 'log4js' ),
-	redis = require( '../controls/redis' );
+	//redis = require( '../controls/redis' );
 	loan  = require( './loan' ),
 	domain = require( 'domain' ),
 	issue = require( './issue' ),
+	talk = require( './talk' ),
 	user  = require( './user' );
 
 /******************************* log4js ***************************************/
@@ -97,7 +98,7 @@ exports.all = function( app ){
 		res.header( "Content-Type", "text/html; charset=utf-8" );
 
 		try {
-			if( req.method == 'GET' ){
+			if( 0 && req.method == 'GET' ){
 				checkAuthority( req, res, next );
 			} else {
 				tool.logInfo.info( '[index] this path do not need to try check need ' + req.path + ':::::::' + req.method );
@@ -138,6 +139,38 @@ exports.all = function( app ){
 		res.render('demo.ejs', { title: global.webConfig.title, basePath: global.webConfig.basePath, currentPage: '/index/index' });
 
 	});
+	
+	/***********************************************
+	issue
+
+	G - product:       产品介绍
+	G - wiki:          帮助中心
+	P - addWiki:       添加帮助
+	G - legal:         法律声明
+	G - protocol:      注册协议
+	G - introduction:  公司简介
+	G - news:          新闻
+	G - aboutus:       关于我们
+	
+	************************************************/
+
+	app.get( '/talk', function( req, res ){
+		
+		talk.list( req, res );
+
+	});
+
+	app.post( '/fetchTalk', function( req, res ){
+
+		talk.fetchTalk( req, res );	
+	
+	});
+
+	app.post( '/addTalk', function( req, res ){
+
+		talk.addTalk( req, res );
+
+	} );
 
 	/***********************************************
 	issue

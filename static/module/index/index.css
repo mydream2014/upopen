@@ -3,4 +3,8 @@ body{
 	background: url( ./imgs/body_bg.png ) 0 0 repeat-x;
 }
 
-
+.notice{
+	color: #fff;
+	text-align: right;
+	line-height: 36px;
+}

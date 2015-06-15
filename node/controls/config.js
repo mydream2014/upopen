@@ -1,11 +1,12 @@
 
 global.webConfig = {
-	title: '仟金顶网络科技有限公司',
+	title: '优品开源',
 	page: {
 		'/': '首页',
 		'/index': '首页',
 		'/error': '惊呆了',
 		'/product': '产品介绍',
+		'/talk' : '随便聊聊',
 		'/wiki': '帮助中心',
 		'/article': '技术文章',
 		'/introduction': '关于我们',
@@ -25,7 +26,7 @@ global.webConfig = {
 		'/loan/failed': '贷款失败',
 		'/loan/status': '贷款状态'
 	},
-	basePath: 'http://www.upopen.cn', //'http://www.demo.com',
+	basePath: 'http://www.upopen.cn', //'http://www.demo.com', //
 	min: '',//'/min',
 	resSetting: function( req, path ){
 		console.log( req.path + ' =========')

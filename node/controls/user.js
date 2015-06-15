@@ -3,7 +3,7 @@ var http = require( 'http' ),
 	util = require( 'util' ),
 	tool = require( '../controls/tool' ),
 	fs   = require( 'fs' ),
-	redis = require( './redis' ),
+	//redis = require( './redis' ),
 	qs         = require( 'querystring'),
 	formidable = require( 'formidable' );
 
@@ -175,7 +175,7 @@ function getVerifyCode( req, res ){
 	tool.reqConfig( config, req, res, callback, true );
 }
 
-redis.set( 'VerifyLoginTime', '{}');
+//redis.set( 'VerifyLoginTime', '{}');
 
 function checkVerifyCode( req, res ){
 	

@@ -2,7 +2,7 @@
 var mongoose = require( 'mongoose' ),
 	fs = require( 'fs' );
 
-mongoose.connect( 'mongodb://127.0.0.1/qjdissue', function( err ){
+mongoose.connect( 'mongodb://127.0.0.1/upopen', function( err ){
 	if( !err ){
 		console.log( 'DB ===== connect to mongoDB' );
 	} else {
@@ -14,7 +14,7 @@ mongoose.connect( 'mongodb://127.0.0.1/qjdissue', function( err ){
 /*model*/
 var Schema = mongoose.Schema;
 
-var WikiSchema = new Schema({
+var ArticleSchema = new Schema({
 	type: String,
 	title: String,
 	content: String,
@@ -24,28 +24,41 @@ var WikiSchema = new Schema({
 	hot: String
 });
 
-var WikiModel = mongoose.model( 'Wiki', WikiSchema, 'Wiki' );
+var ArticleModel = mongoose.model( 'Article', ArticleSchema, 'Article' );
+
+var TalkSchema = new Schema({
+	type: String,
+	title: String,
+	content: String,
+	date: String,
+	link: String,
+	sort: String,
+	hot: String
+});
+
+var TalkModel = mongoose.model( 'talk', TalkSchema, 'talk' );
 
 /***************************************************************/
 /*sql*/
 /******** Wiki *********/
-function addWiki( data, callback ){
+function addTalk( data, callback ){
 
-	( new WikiModel( data ) ).save( function( err, doc ){
+	( new TalkModel( data ) ).save( function( err, doc ){
 		callback( err, doc );
 	});
 
 }
 
-function updateWiki( id, data, callback ){
-	WikiModel.update( { _id: id }, data, function( err, docs ){
+function updateTalk( id, data, callback ){
+	TalkModel.update( { _id: id }, data, function( err, docs ){
 		callback( err, doc );
-	})
+	});
 	
 }
 
-function findWiki( data, callback ){
-	WikiModel.find( data ).exec( function( err, docs ){
+function fetchTalk( data, callback ){
+	console.log( data );
+	TalkModel.find( data ).exec( function( err, docs ){
 		callback( err, docs )
 	})
 }
@@ -53,7 +66,7 @@ function findWiki( data, callback ){
 /****************************************************************/
 /*exports*/
 module.exports = {
-	addWiki:    addWiki,
-	updateWiki: updateWiki,
-	findWiki:   findWiki
+	addTalk:    addTalk,
+	updateTalk: updateTalk,
+	FetchTalk:   fetchTalk
 }
