@@ -210,6 +210,12 @@ exports.all = function( app ){
 
 	} );
 
+    app.post( '/updateArticle', function( req, res ){
+
+		article.updateArticle( req, res );
+
+	} );
+
 	app.get( '/kind/list', function( req, res ){
 
 		kind.list( req, res );	

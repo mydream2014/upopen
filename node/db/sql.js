@@ -65,14 +65,26 @@ function addArticle( data, callback ){
 }
 
 function updateArticle( id, data, callback ){
-	ArticleModel.update( { _id: id }, data, function( err, docs ){
+    var query = {},
+          id;
+    console.log( data );
+	for( var key in data ){
+        
+		if( ArticleSchema.tree[ key ] ){
+			query[ key ] = data[ key ];	
+		};
+	}
+    query.tag = query.tag.split(',');
+    id = query.id;
+    console.log( query );
+    delete query.id;
+	ArticleModel.update( { _id: id }, query, function( err, doc ){
 		callback( err, doc );
 	});
 	
 }
 
 function fetchArticle( data, callback ){
-	console.log( data )
 	var query = {};
 	for( var key in data ){
 		if( ArticleSchema.tree[ key ] ){
@@ -94,7 +106,7 @@ function fetchArticleInfo( data, callback ){
 		};
 	}
 	
-	ArticleModel.findOne( query, { 'type': 0, 'disabled': 0, 'sort': 0, 'type': 0 } ).exec( function( err, docs ){
+	ArticleModel.findOne( query ).exec( function( err, docs ){
 		callback( err, docs )
 	})
 }

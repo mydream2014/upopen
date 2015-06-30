@@ -48,6 +48,11 @@ function addArticle( req, res ){
 
 }
 
+function updateArticle( req, res ){
+
+	article.updateArticle( req, res );
+
+}
 
 module.exports = {
 	list:               list,
@@ -55,5 +60,6 @@ module.exports = {
 	info: info,
 	fetchArticle:   fetchArticle,
 	fetchArticleInfo: fetchArticleInfo,
-	addArticle:     addArticle
+	addArticle:     addArticle,
+   updateArticle: updateArticle
 };

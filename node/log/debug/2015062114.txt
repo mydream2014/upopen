@@ -1,1 +1,0 @@
-[2015-06-21 14:57:57.737] [INFO] logInfo - server start3000

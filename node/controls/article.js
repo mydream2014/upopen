@@ -24,6 +24,22 @@ function addArticle( req, res ){
 
 }
 
+function updateArticle( req, res ){
+
+	var data = req.body;
+	data.date = new Date();
+    var id = data._id;
+    delete data._id;
+	
+	db.updateArticle( id, data, function( err, docs ){
+		if( !err ){
+			res.send( { code: 0, msg: 'update article success', data: docs } );
+			//db.incKind( data.kind, 1, function(){} );
+		}
+	} );
+
+}
+
 function fetchArticle( req, res ){
 
 	db.fetchArticle( req.query, function( err, docs ){
@@ -46,6 +62,7 @@ function fetchArticleInfo( req, res ){
 
 module.exports = {
 	addArticle:   addArticle,
+   updateArticle: updateArticle,
 	fetchArticle: fetchArticle,
 	fetchArticleInfo: fetchArticleInfo
 }

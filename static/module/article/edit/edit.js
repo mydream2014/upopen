@@ -55,6 +55,7 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
 			data: data,
 			success: function( ret ){
 				if( ret.code == '0' ){
+                fetchArticleInfo();
 					renderKind( ret.data );
 				}
 			}
@@ -62,22 +63,64 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
 		
 	};
 
+    function getLocal(){
+		var param = location.search.slice(1).split('&');
+		var p = {};
+		for( var i = 0; c = param[i]; i++ ){
+			var s = c.split('=');
+			p[s[0]] = s[1];
+		}
+		return p;
+	}
+
+    function fetchArticleInfo(){
+        var id = '';
+        if( !( id = getLocal().id ) ){
+            return;
+        }
+       $.ajax( {
+			url: basePath + '/fetchArticleInfo',
+			type: 'get',
+			dataType: 'json',
+			data: {'_id': id },
+			success: function( ret ){
+				if( ret.code == '0' ){
+					//render( ret.data, talkBox );
+                kind.val( ret.data.kind );
+					title.val( ret.data.title );
+					description.val( ret.data.description.split('T')[0] );
+					ue.setContent( ret.data.content );
+                tag.val( ret.data.tag.join(',') );
+                hot.val( ret.data.hot );
+                    sort.val( ret.data.sort );
+					author.val( ret.data.author );
+				}
+			}
+		} );
+    }
+
 	$( '#form' ).on( 'submit', function(){
 		
 		var data = {
-			kind: kind.val(),
-			title:  title.val(),
-			description: description.val(),
-			author: author.val(),
-			tag: tag.val().split(','),
-			disabled: disabled.get(0).disabled,
-			sort: sort.val(),
-			hot: hot.val(),
-			content: ue.getContent(),
-			link: '',
-		};
+                kind: kind.val(),
+                title:  title.val(),
+                description: description.val(),
+                author: author.val(),
+                tag: tag.val(),
+                disabled: disabled.get(0).disabled,
+                    sort: sort.val(),
+                hot: hot.val(),
+                content: ue.getContent(),
+                link: '',
+                },
+            id,
+            url = basePath + '/addArticle';
+         if( id = getLocal().id ){
+            data.id = id;
+            url =  basePath + '/updateArticle'
+        }
 		$.ajax( {
-			url: basePath + '/addArticle',
+			url: url,
 			type: 'post',
 			dataType: 'json',
 			data: data,
