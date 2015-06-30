@@ -1,0 +1,28 @@
+
+.articleInfo{
+	background: #fff;
+	width: 730px;
+	border-right: 1px solid #c4c4c4;
+	min-height: 200px;
+}
+
+.articleInfo_title{
+	font-size: 24px;
+	text-align: center;
+	line-height: 3;
+}
+
+.articleInfo_date{
+	float: right;
+	padding: 0 15px;
+	color: #b2b2b2;
+	line-height: 1;
+	border-left: 1px solid #ddd;
+}
+
+.articleInfo_author{
+	float: right;
+	color: #b2b2b2;
+	line-height: 1;
+	padding-right: 15px;
+}

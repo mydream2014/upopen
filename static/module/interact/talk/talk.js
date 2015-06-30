@@ -16,7 +16,7 @@ require.config({
 
 define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
 
-	var link = 'thisismessage',
+	var belong = 'thisismessage',
 		content = $( '#content' ),
 		talkBox = $( '#talkBox' ),
 		data = [],
@@ -50,7 +50,7 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
 		
 		var data = {
 			content: content.val(),
-			link:         link
+			belong:         belong
 		};
 		$.ajax( {
 			url: basePath + '/addTalk',
@@ -69,7 +69,7 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
 	function fetchTalk(){
 		
 		var data = {
-			link: link
+			belong: belong
 		};
 
 		$.ajax( {

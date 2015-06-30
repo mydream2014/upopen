@@ -8,6 +8,14 @@ body{
 	
 }
 
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
 .wrapper{
 	width:100%;
 	min-height:100%;
@@ -129,6 +137,9 @@ header{
 	position: relative;
 	background: #f7f7f7;
 	min-height: 700px;
+	color: #333;
+	font-size: 14px;
+	line-height: 1.8;
 }
 .sideBox{
 	width: 200px;
@@ -313,8 +324,24 @@ header{
 	line-height: 18px;
 	
 }
+
+.typeList{
+	float: left;
+	width: 200px;
+	padding: 10px;
+}
+
+.typeList a{
+	color: #333;
+}
+
+.typeList_title{
+	border-bottom: 1px solid #afafaf;
+	line-height: 2.7;
+	margin-bottom: 10px;
+}
 /*==================footer=====================*/
 footer{
-	height: 260px;
+	height: 80px;
 	background: #000;
 }
