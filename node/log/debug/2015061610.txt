@@ -1,0 +1,19 @@
+[2015-06-16 10:10:21.843] [INFO] logInfo - server start3000
+[2015-06-16 10:10:25.998] [INFO] logInfo - /:::::::::::::GET
+[2015-06-16 10:10:25.999] [INFO] logInfo - [index] this path do not need to try check need /:::::::GET
+[2015-06-16 10:10:26.408] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-16 10:10:26.408] [INFO] logInfo - [index] this path do not need to try check need /favicon.ico:::::::GET
+[2015-06-16 10:10:26.413] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-16 10:10:26.413] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-16 10:10:29.371] [INFO] logInfo - /:::::::::::::GET
+[2015-06-16 10:10:29.371] [INFO] logInfo - [index] this path do not need to try check need /:::::::GET
+[2015-06-16 10:10:29.569] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-16 10:10:29.569] [INFO] logInfo - [index] this path do not need to try check need /favicon.ico:::::::GET
+[2015-06-16 10:10:29.573] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-16 10:10:29.574] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-16 10:10:30.140] [INFO] logInfo - /:::::::::::::GET
+[2015-06-16 10:10:30.140] [INFO] logInfo - [index] this path do not need to try check need /:::::::GET
+[2015-06-16 10:10:30.266] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-16 10:10:30.266] [INFO] logInfo - [index] this path do not need to try check need /favicon.ico:::::::GET
+[2015-06-16 10:10:30.268] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-16 10:10:30.268] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET

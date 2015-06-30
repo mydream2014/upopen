@@ -9,6 +9,8 @@ var http  = require( 'http' ),
 	domain = require( 'domain' ),
 	issue = require( './issue' ),
 	talk = require( './talk' ),
+	article = require( './article' ),
+	kind = require( './kind' ),
 	user  = require( './user' );
 
 /******************************* log4js ***************************************/
@@ -172,6 +174,66 @@ exports.all = function( app ){
 
 	} );
 
+	app.get( '/article/list', function( req, res ){
+		
+		article.list( req, res );
+
+	});
+
+	app.get( '/article/info', function( req, res ){
+		
+		article.info( req, res );
+
+	});
+
+	app.get( '/article/edit', function( req, res ){
+		
+		article.edit( req, res );
+
+	});
+
+	app.get( '/fetchArticle', function( req, res ){
+
+		article.fetchArticle( req, res );	
+	
+	});
+
+	app.get( '/fetchArticleInfo', function( req, res ){
+
+		article.fetchArticleInfo( req, res );	
+	
+	});
+
+	app.post( '/addArticle', function( req, res ){
+
+		article.addArticle( req, res );
+
+	} );
+
+	app.get( '/kind/list', function( req, res ){
+
+		kind.list( req, res );	
+	
+	});
+
+	app.get( '/fetchKind', function( req, res ){
+
+		kind.fetchKind( req, res );	
+	
+	});
+
+	app.get( '/incKind', function( req, res ){
+
+		kind.incKind( req, res );	
+	
+	});
+
+	app.post( '/addKind', function( req, res ){
+
+		kind.addKind( req, res );
+
+	} );
+
 	/***********************************************
 	issue
 
@@ -185,12 +247,6 @@ exports.all = function( app ){
 	G - aboutus:       关于我们
 	
 	************************************************/
-
-	app.get( '/article', function( req, res ){
-		
-		issue.article( req, res );
-
-	} );
 
 	app.get( '/product', function( req, res ){
 		

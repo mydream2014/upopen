@@ -1,0 +1,6 @@
+[2015-06-24 20:07:06.752] [INFO] logInfo - /:::::::::::::GET
+[2015-06-24 20:07:06.755] [INFO] logInfo - [index] this path do not need to try check need /:::::::GET
+[2015-06-24 20:07:07.512] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-06-24 20:07:07.512] [INFO] logInfo - [index] this path do not need to try check need /article/list:::::::GET
+[2015-06-24 20:07:07.593] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-06-24 20:07:07.593] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::GET

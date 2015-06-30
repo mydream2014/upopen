@@ -15,32 +15,93 @@ mongoose.connect( 'mongodb://127.0.0.1/upopen', function( err ){
 var Schema = mongoose.Schema;
 
 var ArticleSchema = new Schema({
-	type: String,
+	kind: String,
 	title: String,
+	description: String,
 	content: String,
-	date: String,
+	author: String,
+	tag: Array,
+	date: Date,
 	link: String,
-	sort: String,
-	hot: String
+	sort: Number,
+	hot: Number,
+	disabled: Boolean
 });
 
 var ArticleModel = mongoose.model( 'Article', ArticleSchema, 'Article' );
 
+var KindSchema = new Schema({
+	name: String,
+	index: String,
+	amount: Number,
+	sort: Number,
+	disabled: Boolean,
+	date: Date
+});
+
+var KindModel = mongoose.model( 'kind', KindSchema, 'Kind' );
+
 var TalkSchema = new Schema({
-	type: String,
+	belong: String,
 	title: String,
 	content: String,
-	date: String,
+	date:Date,
 	link: String,
-	sort: String,
-	hot: String
+	sort: Number,
+	hot: Number
 });
 
 var TalkModel = mongoose.model( 'talk', TalkSchema, 'talk' );
 
 /***************************************************************/
 /*sql*/
-/******** Wiki *********/
+/******** Article *********/
+function addArticle( data, callback ){
+
+	( new ArticleModel( data ) ).save( function( err, doc ){
+		callback( err, doc );
+	});
+
+}
+
+function updateArticle( id, data, callback ){
+	ArticleModel.update( { _id: id }, data, function( err, docs ){
+		callback( err, doc );
+	});
+	
+}
+
+function fetchArticle( data, callback ){
+	console.log( data )
+	var query = {};
+	for( var key in data ){
+		if( ArticleSchema.tree[ key ] ){
+			query[ key ] = data[ key ];	
+		};
+	}
+	console.log( query )
+	ArticleModel.find( query, { 'content': 0, 'type': 0, 'disabled': 0, 'sort': 0, 'type': 0  } ).exec( function( err, docs ){
+		callback( err, docs )
+	})
+}
+
+function fetchArticleInfo( data, callback ){
+	
+	var query = {};
+	for( var key in data ){
+		if( ArticleSchema.tree[ key ] ){
+			query[ key ] = data[ key ];	
+		};
+	}
+	
+	ArticleModel.findOne( query, { 'type': 0, 'disabled': 0, 'sort': 0, 'type': 0 } ).exec( function( err, docs ){
+		callback( err, docs )
+	})
+}
+
+/***************************************************************/
+/*sql*/
+/******** Talk *********/
 function addTalk( data, callback ){
 
 	( new TalkModel( data ) ).save( function( err, doc ){
@@ -63,9 +124,59 @@ function fetchTalk( data, callback ){
 	})
 }
 
+
+/***************************************************************/
+/*sql*/
+/******** Kind *********/
+function addKind( data, callback ){
+
+	( new KindModel( data ) ).save( function( err, doc ){
+		callback( err, doc );
+	});
+
+}
+
+function updateKind( id, data, callback ){
+	KindModel.update( { _id: id }, data, function( err, docs ){
+		callback( err, doc );
+	});
+	
+}
+
+function fetchKind( data, callback ){
+	var query = {};
+	for( var key in data ){
+		if( KindSchema.tree[ key ] ){
+			query[ key ] = data[ key ];	
+		};
+	}
+	KindModel.find( query ).sort( {  "sort":1 } ).exec( function( err, docs ){
+		callback( err, docs );
+	});
+}
+
+function incKind( index, amount, callback ){
+	KindModel.update( { "index": index }, { $inc: { "amount": amount } }, function( err, docs ){
+		console.log( 'inckind-----------------------------');
+		console.log( err );
+		callback( err, docs );
+	});
+}
+
 /****************************************************************/
 /*exports*/
 module.exports = {
+
+	addKind: addKind,
+	updateKind: updateKind,
+	fetchKind: fetchKind,
+	incKind: incKind,
+
+	addArticle:    addArticle,
+	updateArticle: updateArticle,
+	fetchArticle:   fetchArticle,
+	fetchArticleInfo: fetchArticleInfo,
+
 	addTalk:    addTalk,
 	updateTalk: updateTalk,
 	FetchTalk:   fetchTalk

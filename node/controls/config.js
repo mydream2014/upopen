@@ -8,25 +8,13 @@ global.webConfig = {
 		'/product': '产品介绍',
 		'/talk' : '随便聊聊',
 		'/wiki': '帮助中心',
-		'/article': '技术文章',
-		'/introduction': '关于我们',
-		'/news': '媒体报道',
-		'/aboutus': '联系我们',
-		'/legal': '法律声明',
-		'/protocol': '注册协议',
-		'/user/findPwd': '找回密码',
-		'/user/resetPwd': '重置密码',
-		'/user/resetPwdSuccess': '重置密码成功',
-		'/user/info': '企业信息',
-		'/user/join': '申请会员',
-		'/user/partners': '合作厂家',
-		'/loan/list': '贷款列表',
-		'/loan/apply': '贷款申请',
-		'/loan/success': '贷款成功',
-		'/loan/failed': '贷款失败',
-		'/loan/status': '贷款状态'
+		'/article/list': '文章列表',
+		'/article/info': '文章详情',
+		'/article/edit': '文章编辑',
+		'/introduction': '关于我们'
+		
 	},
-	basePath: 'http://www.upopen.cn', //'http://www.demo.com', //
+	basePath: 'http://www.upopen.com', //'http://www.demo.com', //
 	min: '',//'/min',
 	resSetting: function( req, path ){
 		console.log( req.path + ' =========')

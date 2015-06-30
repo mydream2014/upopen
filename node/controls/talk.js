@@ -6,8 +6,8 @@ var http = require( 'http' ),
 
 /***********************************************
 issue
-P - addWiki:      添加wiki
-G - fetchWiki:    获取wiki
+P - addtalk:      添加talk
+G - fetchtalk:    获取talk
 ************************************************/
 
 function addTalk( req, res ){
@@ -15,13 +15,13 @@ function addTalk( req, res ){
 	var data = req.body;
 
 	data.hot = 0;
-	data.date = tool.getTime( { type: 'millis' } );
+	data.date = new Date();
 	data.sort = 1;
 	data.title = '11';
 	
 	db.addTalk( req.body, function( err, docs ){
 		if( !err ){
-			res.send( { code: 0, msg: 'add wiki success', data: docs } );
+			res.send( { code: 0, msg: 'add talk success', data: docs } );
 		}
 	} );
 
@@ -31,7 +31,7 @@ function fetchTalk( req, res ){
 
 	db.FetchTalk( req.body, function( err, docs ){
 		if( !err ){
-			res.send( { code: 0, msg: 'find wiki success', data: docs } );
+			res.send( { code: 0, msg: 'find talk success', data: docs } );
 		}
 	} );
 

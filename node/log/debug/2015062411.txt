@@ -1,0 +1,7 @@
+[2015-06-24 11:13:10.068] [INFO] logInfo - server start3000
+[2015-06-24 11:16:10.167] [INFO] logInfo - server start3000
+[2015-06-24 11:16:59.608] [INFO] logInfo - server start3000
+[2015-06-24 11:17:01.030] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-24 11:17:01.030] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-24 11:17:01.615] [INFO] logInfo - /fetchArticle:::::::::::::POST
+[2015-06-24 11:17:01.615] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::POST

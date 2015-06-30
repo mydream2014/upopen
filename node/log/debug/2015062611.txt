@@ -1,0 +1,46 @@
+[2015-06-26 11:14:16.577] [INFO] logInfo - /:::::::::::::GET
+[2015-06-26 11:14:16.578] [INFO] logInfo - [index] this path do not need to try check need /:::::::GET
+[2015-06-26 11:14:16.680] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-26 11:14:16.680] [INFO] logInfo - [index] this path do not need to try check need /favicon.ico:::::::GET
+[2015-06-26 11:14:16.683] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-26 11:14:16.683] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-26 11:14:19.112] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-06-26 11:14:19.112] [INFO] logInfo - [index] this path do not need to try check need /article/list:::::::GET
+[2015-06-26 11:14:19.181] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-26 11:14:19.182] [INFO] logInfo - [index] this path do not need to try check need /favicon.ico:::::::GET
+[2015-06-26 11:14:19.188] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-26 11:14:19.188] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-26 11:14:19.217] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-06-26 11:14:19.217] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::GET
+[2015-06-26 11:14:23.031] [INFO] logInfo - /article/info:::::::::::::GET
+[2015-06-26 11:14:23.032] [INFO] logInfo - [index] this path do not need to try check need /article/info:::::::GET
+[2015-06-26 11:14:23.111] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-26 11:14:23.111] [INFO] logInfo - [index] this path do not need to try check need /favicon.ico:::::::GET
+[2015-06-26 11:14:23.126] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-26 11:14:23.127] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-26 11:14:23.137] [INFO] logInfo - /fetchArticleInfo:::::::::::::GET
+[2015-06-26 11:14:23.137] [INFO] logInfo - [index] this path do not need to try check need /fetchArticleInfo:::::::GET
+[2015-06-26 11:14:35.948] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-06-26 11:14:35.948] [INFO] logInfo - [index] this path do not need to try check need /article/list:::::::GET
+[2015-06-26 11:14:36.001] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-26 11:14:36.001] [INFO] logInfo - [index] this path do not need to try check need /favicon.ico:::::::GET
+[2015-06-26 11:14:36.006] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-26 11:14:36.007] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-26 11:14:36.016] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-06-26 11:14:36.017] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::GET
+[2015-06-26 11:14:36.697] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-06-26 11:14:36.697] [INFO] logInfo - [index] this path do not need to try check need /article/list:::::::GET
+[2015-06-26 11:14:36.730] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-26 11:14:36.731] [INFO] logInfo - [index] this path do not need to try check need /favicon.ico:::::::GET
+[2015-06-26 11:14:36.739] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-26 11:14:36.740] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-26 11:14:36.744] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-06-26 11:14:36.745] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::GET
+[2015-06-26 11:14:37.712] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-06-26 11:14:37.712] [INFO] logInfo - [index] this path do not need to try check need /article/list:::::::GET
+[2015-06-26 11:14:37.749] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-26 11:14:37.749] [INFO] logInfo - [index] this path do not need to try check need /favicon.ico:::::::GET
+[2015-06-26 11:14:37.755] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-06-26 11:14:37.755] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::GET
+[2015-06-26 11:14:37.756] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-26 11:14:37.756] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET

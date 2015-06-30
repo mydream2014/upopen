@@ -1,0 +1,46 @@
+[2015-06-21 16:23:32.009] [INFO] logInfo - /talk:::::::::::::GET
+[2015-06-21 16:23:32.010] [INFO] logInfo - [index] this path do not need to try check need /talk:::::::GET
+[2015-06-21 16:23:32.372] [INFO] logInfo - /fetchTalk:::::::::::::POST
+[2015-06-21 16:23:32.372] [INFO] logInfo - [index] this path do not need to try check need /fetchTalk:::::::POST
+[2015-06-21 16:23:35.293] [INFO] logInfo - /addTalk:::::::::::::POST
+[2015-06-21 16:23:35.294] [INFO] logInfo - [index] this path do not need to try check need /addTalk:::::::POST
+[2015-06-21 16:23:37.537] [INFO] logInfo - /addTalk:::::::::::::POST
+[2015-06-21 16:23:37.538] [INFO] logInfo - [index] this path do not need to try check need /addTalk:::::::POST
+[2015-06-21 16:28:43.502] [INFO] logInfo - /addTalk:::::::::::::POST
+[2015-06-21 16:28:43.502] [INFO] logInfo - [index] this path do not need to try check need /addTalk:::::::POST
+[2015-06-21 16:32:06.918] [INFO] logInfo - server start3000
+[2015-06-21 16:32:19.437] [INFO] logInfo - server start3000
+[2015-06-21 16:32:26.523] [INFO] logInfo - server start3000
+[2015-06-21 16:32:30.565] [INFO] logInfo - server start3000
+[2015-06-21 16:32:39.913] [INFO] logInfo - server start3000
+[2015-06-21 16:33:23.897] [INFO] logInfo - server start3000
+[2015-06-21 16:46:01.461] [INFO] logInfo - server start3000
+[2015-06-21 16:46:03.710] [INFO] logInfo - /talk:::::::::::::GET
+[2015-06-21 16:46:03.710] [INFO] logInfo - [index] this path do not need to try check need /talk:::::::GET
+[2015-06-21 16:46:04.020] [INFO] logInfo - /fetchTalk:::::::::::::POST
+[2015-06-21 16:46:04.020] [INFO] logInfo - [index] this path do not need to try check need /fetchTalk:::::::POST
+[2015-06-21 16:46:09.958] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 16:46:09.958] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 16:46:53.192] [INFO] logInfo - server start3000
+[2015-06-21 16:46:54.616] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 16:46:54.616] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 16:47:45.243] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 16:47:45.243] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 16:47:45.472] [INFO] logInfo - /fetchTalk:::::::::::::POST
+[2015-06-21 16:47:45.472] [INFO] logInfo - [index] this path do not need to try check need /fetchTalk:::::::POST
+[2015-06-21 16:47:50.156] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 16:47:50.156] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 16:47:50.385] [INFO] logInfo - /fetchTalk:::::::::::::POST
+[2015-06-21 16:47:50.385] [INFO] logInfo - [index] this path do not need to try check need /fetchTalk:::::::POST
+[2015-06-21 16:53:12.869] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 16:53:12.869] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 16:53:13.108] [INFO] logInfo - /fetchArticle:::::::::::::POST
+[2015-06-21 16:53:13.108] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::POST
+[2015-06-21 16:53:32.889] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 16:53:32.889] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 16:53:33.067] [INFO] logInfo - /fetchArticle:::::::::::::POST
+[2015-06-21 16:53:33.067] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::POST
+[2015-06-21 16:55:59.131] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 16:55:59.131] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 16:55:59.334] [INFO] logInfo - /fetchArticle:::::::::::::POST
+[2015-06-21 16:55:59.334] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::POST

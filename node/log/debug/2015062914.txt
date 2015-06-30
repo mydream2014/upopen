@@ -1,0 +1,18 @@
+[2015-06-29 14:02:35.066] [INFO] logInfo - /article/info:::::::::::::GET
+[2015-06-29 14:02:35.067] [INFO] logInfo - [index] this path do not need to try check need /article/info:::::::GET
+[2015-06-29 14:02:35.133] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-29 14:02:35.133] [INFO] logInfo - [index] this path do not need to try check need /favicon.ico:::::::GET
+[2015-06-29 14:02:35.146] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-06-29 14:02:35.147] [INFO] logInfo - [index] this path do not need to try check need /fetchKind:::::::GET
+[2015-06-29 14:02:35.148] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-29 14:02:35.148] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-29 14:02:35.155] [INFO] logInfo - /fetchArticleInfo:::::::::::::GET
+[2015-06-29 14:02:35.156] [INFO] logInfo - [index] this path do not need to try check need /fetchArticleInfo:::::::GET
+[2015-06-29 14:02:42.027] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-29 14:02:42.027] [INFO] logInfo - [index] this path do not need to try check need /favicon.ico:::::::GET
+[2015-06-29 14:02:42.036] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-06-29 14:02:42.036] [INFO] logInfo - [index] this path do not need to try check need /fetchKind:::::::GET
+[2015-06-29 14:02:42.037] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-29 14:02:42.037] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-29 14:02:42.043] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-06-29 14:02:42.043] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::GET

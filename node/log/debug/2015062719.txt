@@ -1,0 +1,62 @@
+[2015-06-27 19:07:58.998] [INFO] logInfo - /:::::::::::::GET
+[2015-06-27 19:07:58.998] [INFO] logInfo - [index] this path do not need to try check need /:::::::GET
+[2015-06-27 19:07:59.122] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-27 19:07:59.123] [INFO] logInfo - [index] this path do not need to try check need /favicon.ico:::::::GET
+[2015-06-27 19:07:59.125] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-27 19:07:59.125] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-27 19:08:03.524] [INFO] logInfo - /:::::::::::::GET
+[2015-06-27 19:08:03.524] [INFO] logInfo - [index] this path do not need to try check need /:::::::GET
+[2015-06-27 19:08:03.635] [INFO] logInfo - /module/index/imgs/logo.png:::::::::::::GET
+[2015-06-27 19:08:03.635] [INFO] logInfo - [index] this path do not need to try check need /module/index/imgs/logo.png:::::::GET
+[2015-06-27 19:08:03.688] [INFO] logInfo - /module/index/imgs/banner.png:::::::::::::GET
+[2015-06-27 19:08:03.689] [INFO] logInfo - [index] this path do not need to try check need /module/index/imgs/banner.png:::::::GET
+[2015-06-27 19:08:03.689] [INFO] logInfo - /module/index/imgs/pic_free.png:::::::::::::GET
+[2015-06-27 19:08:03.689] [INFO] logInfo - [index] this path do not need to try check need /module/index/imgs/pic_free.png:::::::GET
+[2015-06-27 19:08:03.764] [INFO] logInfo - /module/index/imgs/icon_free.png:::::::::::::GET
+[2015-06-27 19:08:03.764] [INFO] logInfo - [index] this path do not need to try check need /module/index/imgs/icon_free.png:::::::GET
+[2015-06-27 19:08:03.766] [INFO] logInfo - /module/index/imgs/pic_tank.png:::::::::::::GET
+[2015-06-27 19:08:03.766] [INFO] logInfo - [index] this path do not need to try check need /module/index/imgs/pic_tank.png:::::::GET
+[2015-06-27 19:08:03.766] [INFO] logInfo - /module/index/imgs/icon_tank.png:::::::::::::GET
+[2015-06-27 19:08:03.766] [INFO] logInfo - [index] this path do not need to try check need /module/index/imgs/icon_tank.png:::::::GET
+[2015-06-27 19:08:03.822] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-27 19:08:03.822] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-27 19:08:03.826] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-27 19:08:03.827] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-27 19:08:03.829] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-27 19:08:03.829] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-27 19:08:03.833] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-27 19:08:03.833] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-27 19:08:03.836] [INFO] logInfo - /module/index/imgs/pic_chess.png:::::::::::::GET
+[2015-06-27 19:08:03.837] [INFO] logInfo - [index] this path do not need to try check need /module/index/imgs/pic_chess.png:::::::GET
+[2015-06-27 19:08:03.838] [INFO] logInfo - /module/index/imgs/icon_chess.png:::::::::::::GET
+[2015-06-27 19:08:03.838] [INFO] logInfo - [index] this path do not need to try check need /module/index/imgs/icon_chess.png:::::::GET
+[2015-06-27 19:08:03.840] [INFO] logInfo - /module/index/imgs/pic_draughts.png:::::::::::::GET
+[2015-06-27 19:08:03.840] [INFO] logInfo - [index] this path do not need to try check need /module/index/imgs/pic_draughts.png:::::::GET
+[2015-06-27 19:08:03.842] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-27 19:08:03.842] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-27 19:08:03.847] [INFO] logInfo - /module/index/imgs/icon_draughts.png:::::::::::::GET
+[2015-06-27 19:08:03.847] [INFO] logInfo - [index] this path do not need to try check need /module/index/imgs/icon_draughts.png:::::::GET
+[2015-06-27 19:08:03.849] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-27 19:08:03.849] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-27 19:08:03.852] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-27 19:08:03.852] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-27 19:08:03.859] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-27 19:08:03.860] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-27 19:08:03.864] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-27 19:08:03.864] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-27 19:08:03.867] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-27 19:08:03.867] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-27 19:08:03.890] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-27 19:08:03.891] [INFO] logInfo - [index] this path do not need to try check need /favicon.ico:::::::GET
+[2015-06-27 19:08:03.893] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-27 19:08:03.893] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-27 19:08:18.921] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-06-27 19:08:18.921] [INFO] logInfo - [index] this path do not need to try check need /article/list:::::::GET
+[2015-06-27 19:08:19.006] [INFO] logInfo - /favicon.ico:::::::::::::GET
+[2015-06-27 19:08:19.006] [INFO] logInfo - [index] this path do not need to try check need /favicon.ico:::::::GET
+[2015-06-27 19:08:19.010] [INFO] logInfo - /error:::::::::::::GET
+[2015-06-27 19:08:19.011] [INFO] logInfo - [index] this path do not need to try check need /error:::::::GET
+[2015-06-27 19:08:19.020] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-06-27 19:08:19.020] [INFO] logInfo - [index] this path do not need to try check need /fetchKind:::::::GET
+[2015-06-27 19:08:19.026] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-06-27 19:08:19.026] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::GET

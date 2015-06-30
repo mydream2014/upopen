@@ -1,0 +1,47 @@
+[2015-06-21 17:03:43.004] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 17:03:43.004] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 17:03:43.176] [INFO] logInfo - /fetchArticle:::::::::::::POST
+[2015-06-21 17:03:43.176] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::POST
+[2015-06-21 17:11:35.316] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 17:11:35.317] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 17:11:35.479] [INFO] logInfo - /fetchArticle:::::::::::::POST
+[2015-06-21 17:11:35.479] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::POST
+[2015-06-21 17:16:54.236] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 17:16:54.236] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 17:17:10.774] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 17:17:10.775] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 17:17:29.000] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 17:17:29.001] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 17:17:44.724] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 17:17:44.724] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 17:18:11.862] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 17:18:11.862] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 17:18:12.016] [INFO] logInfo - /fetchArticle:::::::::::::POST
+[2015-06-21 17:18:12.016] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::POST
+[2015-06-21 17:18:52.940] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 17:18:52.940] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 17:18:53.227] [INFO] logInfo - /fetchArticle:::::::::::::POST
+[2015-06-21 17:18:53.227] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::POST
+[2015-06-21 17:19:19.990] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 17:19:19.990] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 17:19:19.995] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 17:19:19.995] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 17:19:20.237] [INFO] logInfo - /fetchArticle:::::::::::::POST
+[2015-06-21 17:19:20.237] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::POST
+[2015-06-21 17:20:34.508] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 17:20:34.508] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 17:20:34.514] [INFO] logInfo - /addArticle:::::::::::::POST
+[2015-06-21 17:20:34.515] [INFO] logInfo - [index] this path do not need to try check need /addArticle:::::::POST
+[2015-06-21 17:20:34.741] [INFO] logInfo - /fetchArticle:::::::::::::POST
+[2015-06-21 17:20:34.741] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::POST
+[2015-06-21 17:21:11.600] [INFO] logInfo - /addArticle:::::::::::::POST
+[2015-06-21 17:21:11.600] [INFO] logInfo - [index] this path do not need to try check need /addArticle:::::::POST
+[2015-06-21 17:23:48.897] [INFO] logInfo - server start3000
+[2015-06-21 17:24:07.173] [INFO] logInfo - /article:::::::::::::GET
+[2015-06-21 17:24:07.174] [INFO] logInfo - [index] this path do not need to try check need /article:::::::GET
+[2015-06-21 17:24:07.518] [INFO] logInfo - /fetchArticle:::::::::::::POST
+[2015-06-21 17:24:07.519] [INFO] logInfo - [index] this path do not need to try check need /fetchArticle:::::::POST
+[2015-06-21 17:24:22.540] [INFO] logInfo - /addArticle:::::::::::::POST
+[2015-06-21 17:24:22.540] [INFO] logInfo - [index] this path do not need to try check need /addArticle:::::::POST
+[2015-06-21 17:24:52.542] [INFO] logInfo - /addArticle:::::::::::::POST
+[2015-06-21 17:24:52.542] [INFO] logInfo - [index] this path do not need to try check need /addArticle:::::::POST
