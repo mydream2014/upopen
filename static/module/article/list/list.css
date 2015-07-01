@@ -10,6 +10,9 @@
 	position: relative;
 	background: url( ./imgs/content_text_line.png ) bottom left no-repeat;
 }
+.articleItem:last-child{
+	background: none;
+}
 
 .articleNum{
 	position: absolute;
