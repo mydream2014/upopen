@@ -340,6 +340,13 @@ header{
 	line-height: 2.7;
 	margin-bottom: 10px;
 }
+
+.noticeAd{
+    width: 700px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+}
 /*==================footer=====================*/
 footer{
 	height: 80px;
