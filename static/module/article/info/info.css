@@ -34,3 +34,40 @@
 	line-height: 1;
 	padding-right: 15px;
 }
+
+/******************************/
+.talkBox{
+    margin-top: 20px;
+}
+.talkItem{
+    margin: 20px 10px;
+    padding: 20px  40px;
+    position: relative;
+    border-top: 1px solid #e2e2e2;
+    
+}
+.talkItem .talkNum{
+    position: absolute;
+    left: 0px;
+    top: 12px;
+    font-size: 24px;
+    width: 40px;
+    text-align: center;
+}
+
+.talkItem .talkHeader{
+    line-height: 30px;
+}
+
+.talkItem .talkName{
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.talkItem .talkDate{
+    margin-left: 10px;
+}
+
+.talkItem .talkContent{
+    line-height: 24px;
+}

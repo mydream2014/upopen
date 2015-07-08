@@ -14,7 +14,7 @@ global.webConfig = {
 		'/introduction': '关于我们'
 		
 	},
-	basePath: 'http://www.upopen.com', //'http://www.demo.com', //
+	basePath: 'http://www.upopen.cn', //'http://www.demo.com', //
 	min: '',//'/min',
 	resSetting: function( req, path ){
 		console.log( req.path + ' =========')

@@ -13,13 +13,18 @@ require.config({
 	}
 })
 
-define( ['base',  'doc', 'all'],function( base,  DOC ){
+define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
+    
+    var dialog = new Dialog.Dialog();
 
 	var belong = 'thisismessage',
-		content = $( '#content' ),
+		content = $( '#talkcontent' ),
 		talkBox = $( '#talkBox' ),
+       talkAmount = $( '#talkAmount' ),
 		data = [],
-		tmp = [ '{num} -- {content} -- {date} ' ].join('');
+		tmp = [ '<tt class="talkNum">{num}</tt>',
+                    '<div class="talkHeader"><tt class="talkName">{name}</tt>--<span class="talkDate">{date}<span></div>',
+                    '<p class="talkContent">{content}<p>' ].join('');
 
 	function renderAll( items ){
 		
@@ -28,19 +33,22 @@ define( ['base',  'doc', 'all'],function( base,  DOC ){
 			els.push( render( v ) );
 		});	
 		talkBox.append( els );
-
+        
 	}
 
 	function render( item, talkBox ){
 		
 		item.num = data.length + 1;
+        item.date = item.date.replace( 'T' , ' ' );
+        item.name = item.name || '匿名';
 		var el =  tmp.replace( /\{(.*?)\}/g, function( $1, $2 ){
 				return item[ $2 ];
 			}) ;
-		el = $( '<div>' ).append( el ).addClass( 'talkItem');
+		el = $( '<div>' ).append( el ).addClass( 'talkItem clearfix');
 		item.el = el
 		data.push( item );
 		talkBox && talkBox.append( el );
+        talkAmount.html( talkAmount.html() - 0 + 1 );
 		return el;
 
 	}
@@ -60,7 +68,9 @@ define( ['base',  'doc', 'all'],function( base,  DOC ){
 			    success: function( ret ){
 				    if( ret.code == '0' ){
 					    render( ret.data, talkBox );
-				    }
+				    }  else {
+                    dialog.show( '回复太频繁了，请稍后再试')
+                   }
 			    }
 		    } );
 		    return false;

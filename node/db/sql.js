@@ -45,6 +45,7 @@ var TalkSchema = new Schema({
 	belong: String,
 	title: String,
 	content: String,
+   name: String,
 	date:Date,
 	link: String,
 	sort: Number,

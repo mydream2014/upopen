@@ -11,12 +11,13 @@ require.config({
 		dialog: 'widget/dialog/dialog',
 		all: 'public/all',
 		doc: 'public/zhdoc',
-		kind: 'public/kind'
+		kind: 'public/kind',
+      talk: 'module/talk/talk'
 	}
 })
 
-define( ['base', 'dialog', 'doc', 'all', 'kind'],function( base, Dialog, DOC ){
-
+define( ['base', 'dialog', 'doc', 'talk', 'all', 'kind'],function( base, Dialog, DOC, Talk ){
+    
 	var type = $( '#type' ),
 		title = $( '#title' ),
 		description  = $( '#description' ),
@@ -57,6 +58,8 @@ define( ['base', 'dialog', 'doc', 'all', 'kind'],function( base, Dialog, DOC ){
                 kind.html( ret.data.kind );
 					content.html( ret.data.content );
 					author.html( ret.data.author );
+                    
+                Talk( param.id );
 				}
 			}
 		} );
