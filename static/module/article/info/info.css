@@ -20,6 +20,14 @@
 	border-left: 1px solid #ddd;
 }
 
+.articleInfo_kind{
+    float: right;
+	padding: 0 15px;
+	color: #b2b2b2;
+	line-height: 1;
+	border-left: 1px solid #ddd;
+}
+
 .articleInfo_author{
 	float: right;
 	color: #b2b2b2;

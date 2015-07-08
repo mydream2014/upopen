@@ -45,6 +45,18 @@
 	color: #b2b2b2;
 }
 
+.articleKind{
+	margin-left: 10px;
+	padding-left: 10px;
+	border-left: 1px solid #ddd;
+	color: #b2b2b2;
+}
+
+.articleKind a{
+	color: #b2b2b2;
+    text-decoration: underline;
+} 
+
 .articleLink{
 	float: right;
 	color: #333;

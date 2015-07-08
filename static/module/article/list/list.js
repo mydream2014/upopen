@@ -22,6 +22,7 @@ define( ['base', 'dialog', 'doc', 'all', 'kind'],function( base, Dialog, DOC ){
 		tmp = [ '<tt class="articleNum">{num}</tt>',
 				'<h3 class="articleTitle">{title}</h3>',
 				'<span class="articleAuthor">{author}</span>',
+                '<span class="articleKind"><a href="/article/list?kind={kind}">{kind}</a></span>',
 				'<span class="articleDate">{date}</span>',
 				'<p class="articleContent">{description}</p>',
 				'<a class="articleLink" href="/article/info?id={_id}">阅读全文</a>'].join('');

@@ -23,6 +23,7 @@ define( ['base', 'dialog', 'doc', 'all', 'kind'],function( base, Dialog, DOC ){
 		author = $( '#author' ),
 		tag = $( '#tag' ),
 		date  = $( '#date' ),
+      kind  = $( '#kind' ),
 		sort = $( '#sort' ),
 		hot = $( '#hot' ),
 		content = $( '#content' );
@@ -53,6 +54,7 @@ define( ['base', 'dialog', 'doc', 'all', 'kind'],function( base, Dialog, DOC ){
 					//render( ret.data, talkBox );
 					title.html( ret.data.title );
 					date.html( ret.data.date.split('T')[0] );
+                kind.html( ret.data.kind );
 					content.html( ret.data.content );
 					author.html( ret.data.author );
 				}
