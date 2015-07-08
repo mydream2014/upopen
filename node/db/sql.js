@@ -92,7 +92,7 @@ function fetchArticle( data, callback ){
 		};
 	}
 	console.log( query )
-	ArticleModel.find( query, { 'content': 0, 'type': 0, 'disabled': 0, 'sort': 0, 'type': 0  } ).exec( function( err, docs ){
+	ArticleModel.find( query, { 'content': 0, 'type': 0, 'disabled': 0, 'sort': 0, 'type': 0  } ).sort( { 'sort': 1, 'date' : -1 } ).exec( function( err, docs ){
 		callback( err, docs )
 	})
 }
