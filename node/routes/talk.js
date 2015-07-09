@@ -19,7 +19,7 @@ function list( req, res ){
 }
 
 function fetchTalk( req, res ){
-
+    console.log( '=====================' );
 	talk.fetchTalk( req, res );
 
 }

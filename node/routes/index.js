@@ -163,7 +163,11 @@ exports.all = function( app ){
 	});
 
 	app.post( '/fetchTalk', function( req, res ){
+		talk.fetchTalk( req, res );	
+	
+	});
 
+    app.get( '/fetchTalk', function( req, res ){
 		talk.fetchTalk( req, res );	
 	
 	});

@@ -21,6 +21,7 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
 		content = $( '#talkcontent' ),
 		talkBox = $( '#talkBox' ),
        talkAmount = $( '#talkAmount' ),
+        formBtn = $('#form').find('button'),
 		data = [],
 		tmp = [ '<tt class="talkNum">{num}</tt>',
                     '<div class="talkHeader"><tt class="talkName">{name}</tt>--<span class="talkDate">{date}<span></div>',
@@ -55,7 +56,7 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
     
     function submitTalk( belong ){
         $( '#form' ).on( 'submit', function(){
-		
+		    formBtn.attr( 'disabled', true );
 		    var data = {
 			    content: content.val(),
 			    belong:         belong
@@ -68,9 +69,13 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
 			    success: function( ret ){
 				    if( ret.code == '0' ){
 					    render( ret.data, talkBox );
-				    }  else {
+                    content.val( '' );
+				    }  else if( ret.code == '1001' ) {
                     dialog.show( '回复太频繁了，请稍后再试')
+                   }  else if( ret.code == '1002' ) {
+                    dialog.show( '内容不能为空')
                    }
+                    formBtn.attr( 'disabled', false );
 			    }
 		    } );
 		    return false;

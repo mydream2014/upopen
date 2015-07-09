@@ -45,7 +45,10 @@ function addTalk( req, res ){
         res.send( { code: 1001, msg: 'talk content to length', data: null } );
         return;
     }
-
+     if( data.content.length == 0 ){
+        res.send( { code: 1002, msg: 'talk content must be in', data: null } );
+        return;
+    }
 	data.hot = 0;
 	data.date = new Date();
 	data.sort = 1;
@@ -60,12 +63,24 @@ function addTalk( req, res ){
 }
 
 function fetchTalk( req, res ){
+    
+    var data = req.body;    
+    console.log( 'fetchTalk============================' );
+    if( data.start ){
+        db.FetchLastTalk( data,  function( err, docs ){
+		    if( !err ){
+			    res.send( { code: 0, msg: 'find talk success', data: docs } );
+		    }
+	    } );
+    } else {
+        db.FetchTalk( data, function( err, docs ){
+		    if( !err ){
+			    res.send( { code: 0, msg: 'find talk success', data: docs } );
+		    }
+	    } );
+    }
 
-	db.FetchTalk( req.body, function( err, docs ){
-		if( !err ){
-			res.send( { code: 0, msg: 'find talk success', data: docs } );
-		}
-	} );
+	
 
 }
 

@@ -131,8 +131,20 @@ function updateTalk( id, data, callback ){
 }
 
 function fetchTalk( data, callback ){
-	console.log( data );
 	TalkModel.find( data ).exec( function( err, docs ){
+		callback( err, docs )
+	})
+}
+
+function fetchLastTalk( data, callback ){
+    var query = {};
+	for( var key in data ){
+		if( TalkSchema.tree[ key ] ){
+			query[ key ] = data[ key ];	
+		};
+	}
+    console.log( query );
+	TalkModel.find( query ).limit( 10 ).sort( { date: -1 } ).exec( function( err, docs ){
 		callback( err, docs )
 	})
 }
@@ -192,5 +204,6 @@ module.exports = {
 
 	addTalk:    addTalk,
 	updateTalk: updateTalk,
-	FetchTalk:   fetchTalk
+	FetchTalk:   fetchTalk,
+    FetchLastTalk: fetchLastTalk
 }
