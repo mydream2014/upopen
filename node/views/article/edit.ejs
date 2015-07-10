@@ -1,17 +1,5 @@
 <% include ../common/header.ejs %>
-<!-- 加载编辑器的容器 -->
-<script id="container" name="content" type="text/plain">这里写你的初始化内容</script>
-<!-- 配置文件 -->
-<script type="text/javascript" src="/widget/ueditor/ueditor.config.js"></script>
-<!-- 编辑器源码文件 -->
-<script type="text/javascript" src="/widget/ueditor/ueditor.all.js"></script>
-<!-- 实例化编辑器 -->
-<script id="container" name="content" type="text/plain">这里写你的初始化内容</script>
-<script type="text/javascript">
-   var ue = UE.getEditor('content', {
-    autoHeight: false
-});
-</script>
+
 <div class="container">
 <div id="articleBox" class="articleBox">
 
@@ -19,7 +7,7 @@
 <form id="form">
 	<select id="kind"></select><br />
 	<input type="text" placeHolder="标题" id="title" /><br />
-	<input type="text" placeHolder="描述" id="description" /><br />
+	<textarea type="text" placeHolder="描述" id="description" style="width:700px;height: 50px" /></textarea><br />
 	<input type="text" placeHolder="作者" id="author" /><br />
 	<input type="text" placeHolder="标签" id="tag" /><br />
 	<label for="disabled">禁用<input type="checkbox" name="desabled" id="disabled" /><br />
@@ -27,8 +15,8 @@
 	<input type="text" placeHolder="热度" id="hot" /><br />
 	<label>
 		<span>内容</span>
-		<div id="content"></div>
-	</label>
+		<textarea id="content" style="height:200px;width:700px"></textarea>
+	</label><br />
 	<button type="submit" value="提交">提交</button>
 </form>
 </div>

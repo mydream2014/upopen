@@ -1,9 +1,10 @@
 <% include ../common/header.ejs %>
+<link href="<%= basePath %>/public/css/markdown.css" type="text/css" rel="stylesheet" >
 <div class="container clearfix">
 	<div id="articleInfo" class="articleInfo fl">
 		<h3 id="title" class="articleInfo_title"></h3>
 		<span id="date" class="articleInfo_date"></span><span id="kind" class="articleInfo_kind"></span><span id="author" class="articleInfo_author"></span>
-		<div id="content" class="articleInfo_content clearfix"></div>
+		<div id="content" class="articleInfo_content clearfix markdown"></div>
         <div id="talkBox" class="talkBox">
             共收到<tt id="talkAmount">0</tt>条回复：
 

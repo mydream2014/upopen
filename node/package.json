@@ -11,7 +11,6 @@
     "ejs": "*",
     "socket.io":"*",
     "mongoose": "*",
-    "mocha": "2.2.4",
-    "should": "6.0.1"
+    "marked": "*"
   }
 }

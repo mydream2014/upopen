@@ -16,17 +16,6 @@ require.config({
 
 define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
 
-	
-	//var ue = UE.getContent();
-	ue.ready(function(){
-	    //设置编辑器的内容
-	    ue.setContent('hello');
-	    //获取html内容，返回: <p>hello</p>
-	    var html = ue.getContent();
-	    //获取纯文本内容，返回: hello
-	    var txt = ue.getContentTxt();
-	});
-
 	var kind = $( '#kind' ),
 		title = $( '#title' ),
 		description  = $( '#description' ),
@@ -89,7 +78,7 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
                 kind.val( ret.data.kind );
 					title.val( ret.data.title );
 					description.val( ret.data.description.split('T')[0] );
-					ue.setContent( ret.data.content );
+					content.val( ret.data.content );
                 tag.val( ret.data.tag.join(',') );
                 hot.val( ret.data.hot );
                     sort.val( ret.data.sort );
@@ -110,7 +99,7 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
                 disabled: disabled.get(0).disabled,
                     sort: sort.val(),
                 hot: hot.val(),
-                content: ue.getContent(),
+                content: content.val(),
                 link: '',
                 },
             id,
