@@ -64,7 +64,7 @@ function addTalk( req, res ){
 
 function fetchTalk( req, res ){
     
-    var data = req.body;    
+    var data = req.query;    
     console.log( 'fetchTalk============================' );
     if( data.start ){
         db.FetchLastTalk( data,  function( err, docs ){

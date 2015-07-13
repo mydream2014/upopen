@@ -144,7 +144,13 @@ function updateTalk( id, data, callback ){
 }
 
 function fetchTalk( data, callback ){
-	TalkModel.find( data ).exec( function( err, docs ){
+    var query = {};
+	for( var key in data ){
+		if( TalkSchema.tree[ key ] ){
+			query[ key ] = data[ key ];	
+		};
+	}
+	TalkModel.find( query ).exec( function( err, docs ){
 		callback( err, docs )
 	})
 }
