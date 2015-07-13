@@ -62,6 +62,16 @@ function fetchArticle( req, res ){
 
 }
 
+function fetchArticleByKind( req, res ){
+
+	db.fetchArticleByKind( req.query, function( err, docs ){
+		if( !err ){
+			res.send( { code: 0, msg: 'find article success', data: docs } );
+		}
+	} );
+
+}
+
 function fetchArticleInfo( req, res ){
 
 	db.fetchArticleInfo( req.query, function( err, docs ){
@@ -73,9 +83,22 @@ function fetchArticleInfo( req, res ){
 
 }
 
+function fetchArticleEditInfo( req, res ){
+
+	db.fetchArticleInfo( req.query, function( err, docs ){
+		if( !err ){
+          //docs.content = marked( docs.content );
+			res.send( { code: 0, msg: 'find article success', data: docs } );
+		}
+	} );
+
+}
+
 module.exports = {
 	addArticle:   addArticle,
    updateArticle: updateArticle,
 	fetchArticle: fetchArticle,
-	fetchArticleInfo: fetchArticleInfo
+    fetchArticleByKind: fetchArticleByKind,
+	fetchArticleInfo: fetchArticleInfo,
+    fetchArticleEditInfo: fetchArticleEditInfo
 }

@@ -93,7 +93,20 @@ function fetchArticle( data, callback ){
 		};
 	}
 	console.log( query )
-	ArticleModel.find( query, { 'content': 0, 'type': 0, 'disabled': 0, 'sort': 0, 'type': 0  } ).sort( { 'sort': 1, 'date' : -1 } ).exec( function( err, docs ){
+	ArticleModel.find( query, { 'content': 0, 'type': 0, 'disabled': 0, 'sort': 0, 'type': 0  } ).sort( { 'sort': -1, 'date' : -1 } ).exec( function( err, docs ){
+		callback( err, docs )
+	})
+}
+
+function fetchArticleByKind( data, callback ){
+	var query = {};
+	for( var key in data ){
+		if( ArticleSchema.tree[ key ] ){
+			query[ key ] = data[ key ];	
+		};
+	}
+	console.log( query )
+	ArticleModel.find( query, { 'content': 0, 'type': 0, 'disabled': 0, 'sort': 0, 'type': 0  } ).sort( { 'kind': 1, 'sort': -1, 'date' : -1 } ).exec( function( err, docs ){
 		callback( err, docs )
 	})
 }
@@ -200,6 +213,7 @@ module.exports = {
 	addArticle:    addArticle,
 	updateArticle: updateArticle,
 	fetchArticle:   fetchArticle,
+    fetchArticleByKind: fetchArticleByKind,
 	fetchArticleInfo: fetchArticleInfo,
 
 	addTalk:    addTalk,

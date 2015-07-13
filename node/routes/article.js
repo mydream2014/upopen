@@ -42,6 +42,18 @@ function fetchArticleInfo( req, res ){
 
 }
 
+function fetchArticleByKind( req, res ){
+
+	article.fetchArticleByKind( req, res );
+
+}
+
+function fetchArticleEditInfo( req, res ){
+
+	article.fetchArticleEditInfo( req, res );
+
+}
+
 function addArticle( req, res ){
 
 	article.addArticle( req, res );
@@ -59,7 +71,9 @@ module.exports = {
 	edit:		edit,
 	info: info,
 	fetchArticle:   fetchArticle,
+    fetchArticleByKind: fetchArticleByKind,
 	fetchArticleInfo: fetchArticleInfo,
 	addArticle:     addArticle,
-   updateArticle: updateArticle
+   updateArticle: updateArticle,
+    fetchArticleEditInfo: fetchArticleEditInfo
 };
