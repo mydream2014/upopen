@@ -2865,8 +2865,8 @@ th.visible-print,td.visible-print {
 }
 #content h2 {
 	font-size:42px;
-	line-height:58px;
-	margin-top:58px;
+	line-height:28px;
+	margin-top:28px;
 	margin-bottom:29px
 }
 #content h3 {
@@ -2882,8 +2882,8 @@ th.visible-print,td.visible-print {
 	margin-bottom:29px
 }
 #content p,#content ul,#content ol,#content pre,#content table,#content blockquote {
-	margin-top:29px;
-	margin-bottom:29px
+	margin-top:14px;
+	margin-bottom:14px
 }
 hr {
 	border:1px solid;

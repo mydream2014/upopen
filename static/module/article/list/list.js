@@ -7,61 +7,29 @@ require.config({
 	},
 	baseUrl: basePath,
 	paths: {
-		base: 'core/base',
-		dialog: 'widget/dialog/dialog',
-		all: 'public/all',
-		doc: 'public/zhdoc',
-		kind: 'public/kind'
+        base: 'core/base',
+        all: 'public/all',
+        kind: 'public/js/kind',
+        talk: 'public/js/talk'
 	}
 })
 
-define( ['base', 'dialog', 'doc', 'all', 'kind'],function( base, Dialog, DOC ){
+define( [ 'kind' ],function( kind ){
+    
+    var articleBox = $( '#articleBox' ),
+        tmp = ['<div class="col-md-6">',
+                           '<div class="item">',
+                                '<a class="title" href="/article/info?id={_id}">{title}</a>',
+                                '<div class="info">',
+                                    '<span class="kind"><a href="#">{kind}</a></span><tt>/</tt>',
+                                    '<span class="author">{author}</span><tt>/</tt>',
+                                    '<span class="date">{date}</span>',
+                                '</div>',
+                                '<p class="description">{description}</p>',
+                            '</div>',
+                        '</div>'].join( '' );
 
-	var articleBox = $( '#articleBox' ),
-		data = [],
-		tmp = [ '<tt class="articleNum">{num}</tt>',
-				'<h3 class="articleTitle">{title}</h3>',
-				'<span class="articleAuthor">{author}</span>',
-                '<span class="articleKind"><a href="/article/list?kind={kind}">{kind}</a></span>',
-				'<span class="articleDate">{date}</span>',
-				'<p class="articleContent">{description}</p>',
-				'<a class="articleLink" href="/article/info?id={_id}">阅读全文</a>'].join('');
-
-	function renderAll( items ){
-		
-		var els = [];
-		$.each( items, function( k, v ){
-			els.push( render( v ) );
-		});	
-		articleBox.append( els );
-
-	}
-
-	var type = $( '#type' ),
-		title = $( '#title' ),
-		description  = $( '#description' ),
-		author = $( '#author' ),
-		tag = $( '#tag' ),
-		disabled  = $( '#disabled' ),
-		sort = $( '#sort' ),
-		hot = $( '#hot' ),
-		content = $( '#content' );
-
-	function render( item, talkBox ){
-		item.date = item.date.split('T')[0];
-		item.num = data.length + 1;
-		var el =  tmp.replace( /\{(.*?)\}/g, function( $1, $2 ){
-				return item[ $2 ];
-			}) ;
-		el = $( '<div>' ).append( el ).addClass( 'articleItem clearfix' ).attr( 'href', '/article/info?id='+item._id);
-		item.el = el
-		data.push( item );
-		talkBox && talkBox.append( el );
-		return el;
-
-	}
-
-   	function getLocal(){
+    function getLocal(){
 		var param = location.search.slice(1).split('&');
 		var p = {};
 		for( var i = 0; c = param[i]; i++ ){
@@ -71,11 +39,30 @@ define( ['base', 'dialog', 'doc', 'all', 'kind'],function( base, Dialog, DOC ){
 		return p;
 	}
 
+    function renderAll( items ){
+		
+		var els = [];
+		$.each( items, function( k, v ){
+			els.push( render( v ) );
+		});	
+		articleBox.append( els );
+
+	}
+
+    function render( item, talkBox ){
+		item.date = item.date.split('T')[0];
+		var el =  tmp.replace( /\{(.*?)\}/g, function( $1, $2 ){
+				return item[ $2 ];
+			}) ;
+		return $( el );
+
+	}
+
 	function fetchArticle( ){
 		
 		var param = getLocal();
 		var data = getLocal();
-
+        $( '.crumbs tt' ).html( param.kind || '全部类目' );
 		$.ajax( {
 			url: basePath + '/fetchArticle',
 			type: 'get',
@@ -93,7 +80,6 @@ define( ['base', 'dialog', 'doc', 'all', 'kind'],function( base, Dialog, DOC ){
 	!function(){
 		fetchArticle();
 	}();
-	
 
 });
 

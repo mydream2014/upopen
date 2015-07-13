@@ -9,7 +9,7 @@ require.config({
 	paths: {
 		base: 'core/base',
 		dialog: 'widget/dialog/dialog',
-		all: 'public/all'
+		all: 'public/js/all'
 	}
 })
 
@@ -91,7 +91,7 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
 
 		$.ajax( {
 			url: basePath + '/fetchTalk',
-			type: 'post',
+			type: 'get',
 			dataType: 'json',
 			data: data,
 			success: function( ret ){

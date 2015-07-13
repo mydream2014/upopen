@@ -9,9 +9,9 @@ require.config({
 	paths: {
 		base: 'core/base',
 		dialog: 'widget/dialog/dialog',
-		all: 'public/all',
-		doc: 'public/zhdoc',
-		kind: 'public/kind',
+		all: 'public/js/all',
+		doc: 'public/js/zhdoc',
+		kind: 'public/js/kind',
       talk: 'module/talk/talk'
 	}
 })

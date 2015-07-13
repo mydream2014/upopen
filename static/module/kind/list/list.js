@@ -9,12 +9,11 @@ require.config({
 	paths: {
 		base: 'core/base',
 		dialog: 'widget/dialog/dialog',
-		all: 'public/all',
-		doc: 'public/zhdoc'
+		all: 'public/all'
 	}
 })
 
-define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
+define( ['base'],function(  ){
 
 	var kindBox = $( '#kindBox' ),
 		data = [],

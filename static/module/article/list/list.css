@@ -1,66 +1,28 @@
-.articleBox{
-	background: #fff;
-	width: 730px;
-	border-right: 1px solid #c4c4c4;
-	min-height: 700px;
-}	
 
-.articleItem{
-	padding: 10px 30px 10px 40px;
-	position: relative;
-	background: url( ./imgs/content_text_line.png ) bottom left no-repeat;
-}
-.articleItem:last-child{
-	background: none;
+.col-md-6{
+    padding: 10px;
 }
 
-.articleNum{
-	position: absolute;
-	top: 10px;
-	left: 5px;
-	font-size: 60px;
-	text-align: center;
-	color: #afafaf;
-	width: 23px;
-	transform: rotate(10deg);
-	height: 60px;
-	overflow: hidden;
-	line-height: 1;
-}	
-
-.articleTitle{
-	font-size: 18px;
-	border-bottom: 1px solid #ddd;
-	line-height: 2;
+.item{
+    border-radius: 3px;
+    padding: 3px 8px;
 }
 
-.articleAuthor{
-	color: #b2b2b2;
+.item .title{
+    font-size: 16px;
+    line-height: 2em;
 }
 
-.articleDate{
-	margin-left: 10px;
-	padding-left: 10px;
-	border-left: 1px solid #ddd;
-	color: #b2b2b2;
+.item .info span{
+    color: #777
 }
 
-.articleKind{
-	margin-left: 10px;
-	padding-left: 10px;
-	border-left: 1px solid #ddd;
-	color: #b2b2b2;
+.item .info tt{
+    color: #777;
+    padding: 0 8px;
 }
 
-.articleKind a{
-	color: #b2b2b2;
-    text-decoration: underline;
-} 
-
-.articleLink{
-	float: right;
-	color: #333;
-	text-decoration: underLine;
+.item .description{
+    line-height: 1.5em;
+    color: #777;
 }
-
-/

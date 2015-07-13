@@ -9,8 +9,8 @@ require.config({
 	paths: {
 		base: 'core/base',
 		dialog: 'widget/dialog/dialog',
-		all: 'public/all',
-		doc: 'public/zhdoc'
+		all: 'public/js/all',
+		doc: 'public/js/zhdoc'
 	}
 })
 
@@ -68,7 +68,7 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
             return;
         }
        $.ajax( {
-			url: basePath + '/fetchArticleInfo',
+			url: basePath + '/fetchArticleEditInfo',
 			type: 'get',
 			dataType: 'json',
 			data: {'_id': id },
@@ -93,7 +93,7 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
 		var data = {
                 kind: kind.val(),
                 title:  title.val(),
-                description: description.val(),
+                description: description.val() || content.val().slice(0, 50 ),
                 author: author.val(),
                 tag: tag.val(),
                 disabled: disabled.get(0).disabled,
